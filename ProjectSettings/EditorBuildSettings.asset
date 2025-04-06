@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/HomeScreen1.unity
+    guid: 35027552942b1f041b4f4ed43c95079b
+  - enabled: 1
+    path: Assets/Scenes/HomeScreen2.unity
+    guid: ed0a215ea2bef984fa04494a136d9e8e
+  - enabled: 1
+    path: Assets/Scenes/Charon.unity
+    guid: 839cc17dad17ed243a978ef42b79d556
+  - enabled: 1
+    path: Assets/Scenes/InfoSceneCharon.unity
+    guid: c70fc94ed4386a54680bd0143e5821de
+  - enabled: 1
+    path: Assets/Scenes/Earth.unity
+    guid: f1d942d46624804479958e14d40f954c
+  - enabled: 1
+    path: Assets/Scenes/InfoSceneEarth.unity
+    guid: 69e487991048b3343a0590511e3589dd
+  - enabled: 1
+    path: Assets/Scenes/Ganymede.unity
+    guid: c40830e5aa91cd949892adae4844225d
+  - enabled: 1
+    path: Assets/Scenes/InfoSceneGanymede.unity
+    guid: aea722c6909bf1744aff8094c3eb09ca
+  - enabled: 1
+    path: Assets/Scenes/Jupiter.unity
+    guid: c68b6d373c2a9a94db2c4595a1341cf4
+  - enabled: 1
+    path: Assets/Scenes/InfoSceneJupiter.unity
+    guid: 989bd648662a3a847b971237485b2eb7
+  - enabled: 1
+    path: Assets/Scenes/Mars.unity
+    guid: dcc6c77d57928de4da3b4a97471b4424
+  - enabled: 1
+    path: Assets/Scenes/InfoSceneMars.unity
+    guid: 156e1332513978d41993eda44c4faf34
+  - enabled: 1
+    path: Assets/Scenes/Mercury.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/InfoSceneMercury.unity
+    guid: ff052bfe3be46754facaec3fdd22466d
+  - enabled: 1
+    path: Assets/Scenes/Moon.unity
+    guid: 4ad3dee78c841f2498790f1a86bc5f18
+  - enabled: 1
+    path: Assets/Scenes/InfoSceneMoon.unity
+    guid: 352b104f422df9946919be58af7a2e9d
+  - enabled: 1
+    path: Assets/Scenes/Neptune.unity
+    guid: 63d6c61f76208fa458adc2639e598e9a
+  - enabled: 1
+    path: Assets/Scenes/InfoSceneNeptune.unity
+    guid: 1d7e289509c77f640a1ee93c5442549f
+  - enabled: 1
+    path: Assets/Scenes/Pluto.unity
+    guid: c4a873adac790424bb81b54643ec30c4
+  - enabled: 1
+    path: Assets/Scenes/InfoScenePluto.unity
+    guid: 3893ba633423798449d35e0bf5b2da93
+  - enabled: 1
+    path: Assets/Scenes/Saturn.unity
+    guid: f4241d6b9e9826c4f93e7bf22841733b
+  - enabled: 1
+    path: Assets/Scenes/InfoSceneSaturn.unity
+    guid: 42a85d2bb4c02d241bbbb215353d84a3
+  - enabled: 1
+    path: Assets/Scenes/Sun.unity
+    guid: f155a6713d6d41049a4969297d251e62
+  - enabled: 1
+    path: Assets/Scenes/InfoSceneSun.unity
+    guid: a34f5ca7d22dd0f40b8c073b75e9f486
+  - enabled: 1
+    path: Assets/Scenes/Titan.unity
+    guid: f7ce301bdb2bb60459f27336260aa541
+  - enabled: 1
+    path: Assets/Scenes/InfoSceneTitan.unity
+    guid: 29ed95a97062bb54da38d285cf4c70a9
+  - enabled: 1
+    path: Assets/Scenes/Titania.unity
+    guid: 5ee2040963644aa4e966ef0099be9129
+  - enabled: 1
+    path: Assets/Scenes/InfoSceneTitania.unity
+    guid: fad6a68473de6bd4ea89c9bb7746eed7
+  - enabled: 1
+    path: Assets/Scenes/Triton.unity
+    guid: b1ae419c0965f7741b47b910b24c82df
+  - enabled: 1
+    path: Assets/Scenes/InfoSceneTriton.unity
+    guid: 29f070036a0412642ae5c6362674304a
+  - enabled: 1
+    path: Assets/Scenes/Uranus.unity
+    guid: dadb6f7099d8b3e498812522e474a24d
+  - enabled: 1
+    path: Assets/Scenes/InfoSceneUranus.unity
+    guid: 246fab20725ae9e42a9a0bb8185cabc9
+  - enabled: 1
+    path: Assets/Scenes/Venus.unity
+    guid: 8c142e7f1d6919f4b9f875f059051256
+  - enabled: 1
+    path: Assets/Scenes/InfoSceneVenus.unity
+    guid: 3b9e68aad0f257843951244a0b5c7cff
+  m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 4465d33630215434581b3cb6b52effb2, type: 2}
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: e03b205b28ee86d4eb480011fa770b79, type: 2}
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 289c1b55c9541489481df5cc06664110, type: 3}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 5c9cb65f83651194f80bbf07253037a2, type: 2}
+    com.unity.xr.magicleap.magic_leap_settings: {fileID: 11400000, guid: 37751c5c6a8a0084fb73ace19cb1964f, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 3fcb0224ba07dc0479ed0cbde7b0a199, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: ed77a9aedb35f5c4a93cffdd22cbb63e, type: 2}
+  m_UseUCBPForAssetBundles: 0
