@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Screens/IntroScreen.unity
+    guid: 502b903958331b84bb02391e7cbef73f
+  - enabled: 1
     path: Assets/Scenes/Screens/PlanetsScreen.unity
     guid: 35027552942b1f041b4f4ed43c95079b
   - enabled: 1
@@ -281,6 +284,7 @@ EditorBuildSettings:
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 4465d33630215434581b3cb6b52effb2, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: e03b205b28ee86d4eb480011fa770b79, type: 2}
+    com.unity.dt.app-ui: {fileID: 11400000, guid: 1b1c20d82303e4b5781c3ef50ac1449f, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 289c1b55c9541489481df5cc06664110, type: 3}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 5c9cb65f83651194f80bbf07253037a2, type: 2}
     com.unity.xr.magicleap.magic_leap_settings: {fileID: 11400000, guid: 37751c5c6a8a0084fb73ace19cb1964f, type: 2}

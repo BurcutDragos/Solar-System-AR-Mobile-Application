@@ -4,10 +4,10 @@ public class ExitButton : MonoBehaviour
 {
     public void ExitApplication()
     {
-        // Închide aplicația
+        // Closes the app.
         Application.Quit();
 
-        // Funcționează doar în build-ul final (nu în editor)
+        // It only works in the final build (not in the editor).
         #if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false;
         #endif

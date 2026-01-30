@@ -1,22 +1,44 @@
+using TMPro;  // <-- Imports the library for TextMeshPro.
 using UnityEngine;
 using UnityEngine.UI;
-using TMPro;  // <-- Importă biblioteca pentru TextMeshPro
 
 
 public class SoundToggle : MonoBehaviour
 {
-    public AudioSource planetAudio; // Referință către AudioSource-ul planetei
-    public Button soundButton; // Referință către buton
-    public TextMeshProUGUI buttonText; // Referință către textul butonului
+    public AudioSource planetAudio; // Reference to the planet's AudioSource.
+    public Button soundButton; // Reference to the soundButton.
+    public TextMeshProUGUI buttonText; // Reference to the button text.
 
-    private bool isMuted = true; // Variabilă pentru a verifica dacă sunetul e oprit
+    private bool isMuted = true; // Variable to check if the sound is muted.
 
     void Start()
     {
-        // Setează textul inițial
+        if (buttonText == null)
+        {
+            Debug.LogError("SoundToggle: buttonText NU este asignat!", this);
+            return;
+        }
+
+        if (soundButton == null)
+        {
+            Debug.LogError("SoundToggle: soundButton NU este asignat!", this);
+            return;
+        }
+
+        if (planetAudio == null)
+        {
+            Debug.LogWarning("SoundToggle: planetAudio NU este asignat!", this);
+        }
+
+        /*
+         * if (soundButton != null)
+                buttonText = soundButton.GetComponentInChildren<TextMeshProUGUI>();
+         */
+
+        // Sets the initial text.
         buttonText.text = "Unmute";
 
-        // Adaugă listener pe buton
+        // Add listener to the button.
         soundButton.onClick.AddListener(ToggleSound);
     }
 
@@ -24,15 +46,15 @@ public class SoundToggle : MonoBehaviour
     {
         if (isMuted)
         {
-            planetAudio.Play(); // Pornește sunetul
-            buttonText.text = "Mute"; // Schimbă textul
+            planetAudio.Play(); // Turns on the sound.
+            buttonText.text = "Mute"; // Changes the text.
         }
         else
         {
-            planetAudio.Stop(); // Oprește sunetul
-            buttonText.text = "Unmute"; // Schimbă textul
+            planetAudio.Stop(); // Turns off the sound.
+            buttonText.text = "Unmute"; // Changes the text.
         }
 
-        isMuted = !isMuted; // Inversează starea
+        isMuted = !isMuted; // Reverses the state.
     }
 }
