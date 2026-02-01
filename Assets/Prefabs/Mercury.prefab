@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1778119398751999138}
   - component: {fileID: 4915773560195103294}
   - component: {fileID: 7080329461155305423}
+  - component: {fileID: 2327684023895788322}
   - component: {fileID: 4533944599172611390}
   m_Layer: 0
   m_Name: Mercury
@@ -64,6 +65,8 @@ MeshRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -85,9 +88,11 @@ MeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!135 &4915773560195103294
 SphereCollider:
@@ -125,6 +130,21 @@ MonoBehaviour:
   PlanetName: Mercury
   PlanetObject: {fileID: 9215236104923661798}
   speedMultiplier: 15000
+--- !u!114 &2327684023895788322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9215236104923661798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52ddc164bc05ee746a03e84747c9e5f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  planetAudio: {fileID: 4533944599172611390}
+  soundButton: {fileID: 0}
+  buttonText: {fileID: 0}
 --- !u!82 &4533944599172611390
 AudioSource:
   m_ObjectHideFlags: 0
@@ -135,9 +155,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 6778916685839871283, guid: c902d31cb2cf06f4699cb33a9fb376b1, type: 2}
-  m_audioClip: {fileID: 8300000, guid: 5aac9b2e53d341d4eae4dee78006489b, type: 3}
+  m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 5aac9b2e53d341d4eae4dee78006489b, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 1
