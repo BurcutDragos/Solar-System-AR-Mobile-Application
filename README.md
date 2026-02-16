@@ -6,6 +6,7 @@
 - **Detailed Information**: Each planet and satellite comes with an informative description presented in an accessible format.
 - **Audio Experience**: Listen to unique sounds associated with each celestial body, with the option to toggle the sound on or off using a "Mute/Unmute" button.
 - **Intuitive Interface**: Dedicated buttons for navigation and sound control, seamlessly integrated into each scene.
+- **Quiz**: Interactive quiz module that dynamically generates randomized questions about our Solar System from a structured database, provides real-time score tracking, and includes a detailed review system highlighting correct and incorrect answers for enhanced learning feedback.
 
 ## ✅ Project Structure:
 
