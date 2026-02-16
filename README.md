@@ -15,7 +15,7 @@ This repository includes:
 - `ProjectSettings/` — Configuration for the Unity project
 - `README.md` — This documentation file
 - `LICENSE` — Project license
-- `Solar_System_Mobile_AR_Application.apk` — A pre-built APK to test the app on Android devices
+- `Solar_System_Mobile_AR_Application.apk` — A pre-built APK to test the app on Android devices (in future)
 
 ## ❌ Not Included (Git-Ignored):
 
