@@ -281,6 +281,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Planets/InfoSceneVenus.unity
     guid: 3b9e68aad0f257843951244a0b5c7cff
+  - enabled: 1
+    path: Assets/Scenes/Screens/QuizScreen.unity
+    guid: e723b6a373fa9c746b6f56551286d695
+  - enabled: 1
+    path: Assets/Scenes/Screens/QuizResultScreen.unity
+    guid: abeaa8742cc2e15418e4615c182f3f6e
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 4465d33630215434581b3cb6b52effb2, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: e03b205b28ee86d4eb480011fa770b79, type: 2}
