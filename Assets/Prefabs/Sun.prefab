@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 120610799448670927}
   - component: {fileID: 7122900382894493494}
   - component: {fileID: 3950395912812309640}
-  - component: {fileID: 925357223634594518}
   - component: {fileID: 4513194424166562999}
   m_Layer: 0
   m_Name: Sun
@@ -92,6 +91,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!135 &7122900382894493494
 SphereCollider:
@@ -129,21 +129,7 @@ MonoBehaviour:
   PlanetName: Sun
   PlanetObject: {fileID: 8219347466223466110}
   speedMultiplier: 15000
---- !u!114 &925357223634594518
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8219347466223466110}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52ddc164bc05ee746a03e84747c9e5f8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  planetAudio: {fileID: 4513194424166562999}
-  soundButton: {fileID: 0}
-  buttonText: {fileID: 0}
+  dragSensitivity: 0.3
 --- !u!82 &4513194424166562999
 AudioSource:
   m_ObjectHideFlags: 0

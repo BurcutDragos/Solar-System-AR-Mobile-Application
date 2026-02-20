@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 4253317795167566445}
   - component: {fileID: 6985433167985974921}
   - component: {fileID: 4111127709172867456}
-  - component: {fileID: 709144195100701209}
   - component: {fileID: 4785118699410000776}
   m_Layer: 0
   m_Name: Ganymede
@@ -65,6 +64,8 @@ MeshRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -86,9 +87,11 @@ MeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!135 &6985433167985974921
 SphereCollider:
@@ -126,21 +129,7 @@ MonoBehaviour:
   PlanetName: Ganymede
   PlanetObject: {fileID: 6977045070147925424}
   speedMultiplier: 15000
---- !u!114 &709144195100701209
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6977045070147925424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52ddc164bc05ee746a03e84747c9e5f8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  planetAudio: {fileID: 4785118699410000776}
-  soundButton: {fileID: 0}
-  buttonText: {fileID: 0}
+  dragSensitivity: 0.3
 --- !u!82 &4785118699410000776
 AudioSource:
   m_ObjectHideFlags: 0
@@ -151,7 +140,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 2082697168365741387, guid: c902d31cb2cf06f4699cb33a9fb376b1, type: 2}
-  m_audioClip: {fileID: 8300000, guid: 8b504606303a2b049b2b3140b6e7f78b, type: 3}
+  m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 8b504606303a2b049b2b3140b6e7f78b, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1

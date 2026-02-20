@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 1391014949693388471}
   - component: {fileID: 3037167397275991189}
   - component: {fileID: 197063127357512688}
-  - component: {fileID: 1745399892253914017}
   - component: {fileID: 5996699375649795177}
   m_Layer: 0
   m_Name: Charon
@@ -65,6 +64,8 @@ MeshRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -86,9 +87,11 @@ MeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!135 &3037167397275991189
 SphereCollider:
@@ -126,21 +129,7 @@ MonoBehaviour:
   PlanetName: Charon
   PlanetObject: {fileID: 3492901529749632926}
   speedMultiplier: 15000
---- !u!114 &1745399892253914017
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3492901529749632926}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52ddc164bc05ee746a03e84747c9e5f8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  planetAudio: {fileID: 5996699375649795177}
-  soundButton: {fileID: 0}
-  buttonText: {fileID: 0}
+  dragSensitivity: 0.3
 --- !u!82 &5996699375649795177
 AudioSource:
   m_ObjectHideFlags: 0
@@ -151,7 +140,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: -4301635754751390745, guid: c902d31cb2cf06f4699cb33a9fb376b1, type: 2}
-  m_audioClip: {fileID: 8300000, guid: 412cdf9b127025c4388a35a150d5df99, type: 3}
+  m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 412cdf9b127025c4388a35a150d5df99, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1

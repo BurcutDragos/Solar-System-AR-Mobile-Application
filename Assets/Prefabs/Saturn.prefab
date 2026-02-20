@@ -61,6 +61,8 @@ MeshRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -82,9 +84,11 @@ MeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &4867817787632433473
 GameObject:
@@ -100,7 +104,6 @@ GameObject:
   - component: {fileID: 925374957576280978}
   - component: {fileID: 8061758469129335485}
   - component: {fileID: 7577435473684467478}
-  - component: {fileID: 3332955768090462834}
   - component: {fileID: 8222164239834324148}
   m_Layer: 0
   m_Name: Saturn
@@ -153,6 +156,8 @@ MeshRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -174,9 +179,11 @@ MeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!135 &925374957576280978
 SphereCollider:
@@ -214,6 +221,7 @@ MonoBehaviour:
   PlanetName: Saturn
   PlanetObject: {fileID: 4867817787632433473}
   speedMultiplier: 15000
+  dragSensitivity: 0.3
 --- !u!114 &7577435473684467478
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -230,21 +238,6 @@ MonoBehaviour:
   innerRadius: 0.7
   thickness: 0.5
   ringMat: {fileID: 2100000, guid: 02bd5dd05a8b25c4a901f6078db8a573, type: 2}
---- !u!114 &3332955768090462834
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4867817787632433473}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52ddc164bc05ee746a03e84747c9e5f8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  planetAudio: {fileID: 8222164239834324148}
-  soundButton: {fileID: 0}
-  buttonText: {fileID: 0}
 --- !u!82 &8222164239834324148
 AudioSource:
   m_ObjectHideFlags: 0
@@ -255,7 +248,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 6663004722105642121, guid: c902d31cb2cf06f4699cb33a9fb376b1, type: 2}
-  m_audioClip: {fileID: 8300000, guid: 3012ab2ef04ac434cb79a200c1a28d79, type: 3}
+  m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 3012ab2ef04ac434cb79a200c1a28d79, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
