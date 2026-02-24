@@ -645,6 +645,7 @@ GameObject:
   - component: {fileID: 631191459}
   - component: {fileID: 631191458}
   - component: {fileID: 631191457}
+  - component: {fileID: 631191464}
   - component: {fileID: 631191462}
   - component: {fileID: 631191463}
   m_Layer: 5
@@ -780,12 +781,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 860066822c6b793428d79d795efd7ab3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RotationToggle
-  rotationController: {fileID: 1522026876}
+  sceneController: {fileID: 631191464}
   planetAudio: {fileID: 1522026877}
   rotationButton: {fileID: 1537518889}
   soundButton: {fileID: 1070146629}
   resetButton: {fileID: 1316201536}
   buttonText: {fileID: 1686698455}
+--- !u!114 &631191464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 631191456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efd9995fd6975664c8bef540aa379bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlanetSceneController
+  autoRotation: {fileID: 1522026878}
+  dragRotation: {fileID: 1522026876}
 --- !u!1 &680926987
 GameObject:
   m_ObjectHideFlags: 0
@@ -1373,9 +1388,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1522026876}
-        m_TargetAssemblyTypeName: RotationController, Assembly-CSharp
-        m_MethodName: ResetPlanetRotation
+      - m_Target: {fileID: 631191464}
+        m_TargetAssemblyTypeName: PlanetSceneController, Assembly-CSharp
+        m_MethodName: ResetPlanet
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1455,14 +1470,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gonggong
       objectReference: {fileID: 0}
-    - target: {fileID: 4710653510277743236, guid: bba0bdb06493b6940a035099a4889fc0, type: 3}
-      propertyPath: buttonText
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4710653510277743236, guid: bba0bdb06493b6940a035099a4889fc0, type: 3}
-      propertyPath: soundButton
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 8397541961488158868, guid: bba0bdb06493b6940a035099a4889fc0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1510,20 +1517,31 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: bba0bdb06493b6940a035099a4889fc0, type: 3}
 --- !u!114 &1522026876 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 197063127357512688, guid: bba0bdb06493b6940a035099a4889fc0, type: 3}
+  m_CorrespondingSourceObject: {fileID: 4441635361599390398, guid: bba0bdb06493b6940a035099a4889fc0, type: 3}
   m_PrefabInstance: {fileID: 1522026875}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48e460320bf4eed4cbe870aee180a0c0, type: 3}
+  m_Script: {fileID: 11500000, guid: 62e1a3fb69a890543821f5d9d6018cc2, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlanetDragRotation
 --- !u!82 &1522026877 stripped
 AudioSource:
   m_CorrespondingSourceObject: {fileID: 5996699375649795177, guid: bba0bdb06493b6940a035099a4889fc0, type: 3}
   m_PrefabInstance: {fileID: 1522026875}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1522026878 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3331612324782543185, guid: bba0bdb06493b6940a035099a4889fc0, type: 3}
+  m_PrefabInstance: {fileID: 1522026875}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95706679c74c0084197a9736e6d759b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlanetAutoRotation
 --- !u!1 &1537518885
 GameObject:
   m_ObjectHideFlags: 0
@@ -1646,9 +1664,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UnityEngine.Object, UnityEngine
+        m_TargetAssemblyTypeName: PlanetSceneController, Assembly-CSharp
         m_MethodName: 
-        m_Mode: 5
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine

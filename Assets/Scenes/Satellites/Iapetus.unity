@@ -1373,9 +1373,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1989876716}
-        m_TargetAssemblyTypeName: RotationController, Assembly-CSharp
-        m_MethodName: ResetPlanetRotation
+      - m_Target: {fileID: 1813863637}
+        m_TargetAssemblyTypeName: PlanetSceneController, Assembly-CSharp
+        m_MethodName: ResetPlanet
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1507,9 +1507,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UnityEngine.Object, UnityEngine
+        m_TargetAssemblyTypeName: PlanetSceneController, Assembly-CSharp
         m_MethodName: 
-        m_Mode: 5
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1839,6 +1839,7 @@ GameObject:
   - component: {fileID: 1813863632}
   - component: {fileID: 1813863631}
   - component: {fileID: 1813863630}
+  - component: {fileID: 1813863637}
   - component: {fileID: 1813863635}
   - component: {fileID: 1813863636}
   m_Layer: 5
@@ -1974,12 +1975,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 860066822c6b793428d79d795efd7ab3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RotationToggle
-  rotationController: {fileID: 1989876716}
+  sceneController: {fileID: 1813863637}
   planetAudio: {fileID: 1989876715}
   rotationButton: {fileID: 978734108}
   soundButton: {fileID: 667900545}
   resetButton: {fileID: 934666402}
   buttonText: {fileID: 578684951}
+--- !u!114 &1813863637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1813863629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efd9995fd6975664c8bef540aa379bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlanetSceneController
+  autoRotation: {fileID: 1989876717}
+  dragRotation: {fileID: 1989876716}
 --- !u!1 &1866458135
 GameObject:
   m_ObjectHideFlags: 0
@@ -2089,14 +2104,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4773529873587729608, guid: f3a9ac89718ed0e4a9090a6666f4b434, type: 3}
-      propertyPath: buttonText
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4773529873587729608, guid: f3a9ac89718ed0e4a9090a6666f4b434, type: 3}
-      propertyPath: soundButton
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 5903376002396980284, guid: f3a9ac89718ed0e4a9090a6666f4b434, type: 3}
       propertyPath: m_Name
       value: Iapetus
@@ -2113,15 +2120,26 @@ AudioSource:
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &1989876716 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 965708373910781166, guid: f3a9ac89718ed0e4a9090a6666f4b434, type: 3}
+  m_CorrespondingSourceObject: {fileID: 6591006176533672332, guid: f3a9ac89718ed0e4a9090a6666f4b434, type: 3}
   m_PrefabInstance: {fileID: 1989876714}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48e460320bf4eed4cbe870aee180a0c0, type: 3}
+  m_Script: {fileID: 11500000, guid: 62e1a3fb69a890543821f5d9d6018cc2, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlanetDragRotation
+--- !u!114 &1989876717 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8475851271867931019, guid: f3a9ac89718ed0e4a9090a6666f4b434, type: 3}
+  m_PrefabInstance: {fileID: 1989876714}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95706679c74c0084197a9736e6d759b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlanetAutoRotation
 --- !u!1 &2103301236
 GameObject:
   m_ObjectHideFlags: 0

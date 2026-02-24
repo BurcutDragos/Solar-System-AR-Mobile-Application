@@ -102,7 +102,8 @@ GameObject:
   - component: {fileID: 1407701504969762958}
   - component: {fileID: 3531950796655299865}
   - component: {fileID: 925374957576280978}
-  - component: {fileID: 8061758469129335485}
+  - component: {fileID: 4177909080652164312}
+  - component: {fileID: 2679008120488420714}
   - component: {fileID: 7577435473684467478}
   - component: {fileID: 8222164239834324148}
   m_Layer: 0
@@ -206,7 +207,7 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &8061758469129335485
+--- !u!114 &4177909080652164312
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -215,12 +216,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 4867817787632433473}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48e460320bf4eed4cbe870aee180a0c0, type: 3}
+  m_Script: {fileID: 11500000, guid: 95706679c74c0084197a9736e6d759b1, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
-  PlanetName: Chiron
-  PlanetObject: {fileID: 4867817787632433473}
+  m_EditorClassIdentifier: Assembly-CSharp::PlanetAutoRotation
+  planetName: Chiron
   speedMultiplier: 15000
+--- !u!114 &2679008120488420714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4867817787632433473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62e1a3fb69a890543821f5d9d6018cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlanetDragRotation
   dragSensitivity: 0.3
 --- !u!114 &7577435473684467478
 MonoBehaviour:

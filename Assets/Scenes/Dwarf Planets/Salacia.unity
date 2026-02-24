@@ -419,9 +419,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1551638701}
-        m_TargetAssemblyTypeName: RotationController, Assembly-CSharp
-        m_MethodName: ResetPlanetRotation
+      - m_Target: {fileID: 631191464}
+        m_TargetAssemblyTypeName: PlanetSceneController, Assembly-CSharp
+        m_MethodName: ResetPlanet
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -502,6 +502,7 @@ GameObject:
   - component: {fileID: 631191459}
   - component: {fileID: 631191458}
   - component: {fileID: 631191457}
+  - component: {fileID: 631191464}
   - component: {fileID: 631191462}
   - component: {fileID: 631191463}
   m_Layer: 5
@@ -637,12 +638,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 860066822c6b793428d79d795efd7ab3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RotationToggle
-  rotationController: {fileID: 1551638701}
+  sceneController: {fileID: 631191464}
   planetAudio: {fileID: 1551638700}
   rotationButton: {fileID: 1414454235}
   soundButton: {fileID: 2085843093}
   resetButton: {fileID: 552100953}
   buttonText: {fileID: 725450819}
+--- !u!114 &631191464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 631191456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efd9995fd6975664c8bef540aa379bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlanetSceneController
+  autoRotation: {fileID: 1551638702}
+  dragRotation: {fileID: 1551638701}
 --- !u!1 &680926987
 GameObject:
   m_ObjectHideFlags: 0
@@ -1434,9 +1449,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UnityEngine.Object, UnityEngine
+        m_TargetAssemblyTypeName: PlanetSceneController, Assembly-CSharp
         m_MethodName: 
-        m_Mode: 5
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1586,14 +1601,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1506570488282285135, guid: a8c6e10288bf36145b7fb97c2f80c498, type: 3}
-      propertyPath: buttonText
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 1506570488282285135, guid: a8c6e10288bf36145b7fb97c2f80c498, type: 3}
-      propertyPath: soundButton
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 3492901529749632926, guid: a8c6e10288bf36145b7fb97c2f80c498, type: 3}
       propertyPath: m_Name
       value: Salacia
@@ -1650,15 +1657,26 @@ AudioSource:
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &1551638701 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 197063127357512688, guid: a8c6e10288bf36145b7fb97c2f80c498, type: 3}
+  m_CorrespondingSourceObject: {fileID: 7390104004627402506, guid: a8c6e10288bf36145b7fb97c2f80c498, type: 3}
   m_PrefabInstance: {fileID: 1551638699}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48e460320bf4eed4cbe870aee180a0c0, type: 3}
+  m_Script: {fileID: 11500000, guid: 62e1a3fb69a890543821f5d9d6018cc2, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlanetDragRotation
+--- !u!114 &1551638702 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8720571433965187479, guid: a8c6e10288bf36145b7fb97c2f80c498, type: 3}
+  m_PrefabInstance: {fileID: 1551638699}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95706679c74c0084197a9736e6d759b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlanetAutoRotation
 --- !u!1 &1583451306
 GameObject:
   m_ObjectHideFlags: 0

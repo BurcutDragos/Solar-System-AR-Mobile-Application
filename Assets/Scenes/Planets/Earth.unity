@@ -1083,6 +1083,7 @@ GameObject:
   - component: {fileID: 985071227}
   - component: {fileID: 985071226}
   - component: {fileID: 985071225}
+  - component: {fileID: 985071232}
   - component: {fileID: 985071230}
   - component: {fileID: 985071231}
   m_Layer: 5
@@ -1181,8 +1182,8 @@ RectTransform:
   m_Children:
   - {fileID: 471261415}
   - {fileID: 281790417}
-  - {fileID: 1191502535}
   - {fileID: 1788823817}
+  - {fileID: 1191502535}
   - {fileID: 1565891284}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1218,12 +1219,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 860066822c6b793428d79d795efd7ab3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RotationToggle
-  rotationController: {fileID: 930319403449370024}
+  sceneController: {fileID: 985071232}
   planetAudio: {fileID: 1972164394}
   rotationButton: {fileID: 1788823818}
   soundButton: {fileID: 1191502536}
   resetButton: {fileID: 1565891286}
   buttonText: {fileID: 2081160771}
+--- !u!114 &985071232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 985071224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efd9995fd6975664c8bef540aa379bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlanetSceneController
+  autoRotation: {fileID: 930319403449370025}
+  dragRotation: {fileID: 930319403449370024}
 --- !u!1 &1191502534
 GameObject:
   m_ObjectHideFlags: 0
@@ -1519,9 +1534,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 930319403449370024}
-        m_TargetAssemblyTypeName: RotationController, Assembly-CSharp
-        m_MethodName: ResetPlanetRotation
+      - m_Target: {fileID: 985071232}
+        m_TargetAssemblyTypeName: PlanetSceneController, Assembly-CSharp
+        m_MethodName: ResetPlanet
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1792,9 +1807,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UnityEngine.Object, UnityEngine
+        m_TargetAssemblyTypeName: PlanetSceneController, Assembly-CSharp
         m_MethodName: 
-        m_Mode: 5
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2197,18 +2212,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 23.44
       objectReference: {fileID: 0}
-    - target: {fileID: 8974920062879324440, guid: 2c44bbd3cc5b93246be4ec77de054681, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8974920062879324440, guid: 2c44bbd3cc5b93246be4ec77de054681, type: 3}
-      propertyPath: buttonText
-      value: 
-      objectReference: {fileID: 868691051}
-    - target: {fileID: 8974920062879324440, guid: 2c44bbd3cc5b93246be4ec77de054681, type: 3}
-      propertyPath: soundButton
-      value: 
-      objectReference: {fileID: 1191502536}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2216,15 +2219,26 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 2c44bbd3cc5b93246be4ec77de054681, type: 3}
 --- !u!114 &930319403449370024 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6307483946307834828, guid: 2c44bbd3cc5b93246be4ec77de054681, type: 3}
+  m_CorrespondingSourceObject: {fileID: 1183443942628771103, guid: 2c44bbd3cc5b93246be4ec77de054681, type: 3}
   m_PrefabInstance: {fileID: 930319403449370023}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48e460320bf4eed4cbe870aee180a0c0, type: 3}
+  m_Script: {fileID: 11500000, guid: 62e1a3fb69a890543821f5d9d6018cc2, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlanetDragRotation
+--- !u!114 &930319403449370025 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 9017275142342659366, guid: 2c44bbd3cc5b93246be4ec77de054681, type: 3}
+  m_PrefabInstance: {fileID: 930319403449370023}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95706679c74c0084197a9736e6d759b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlanetAutoRotation
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

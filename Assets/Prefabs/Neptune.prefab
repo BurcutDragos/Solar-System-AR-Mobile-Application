@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 1804664414393587001}
   - component: {fileID: 1241797177668714695}
   - component: {fileID: 7524063082849814955}
-  - component: {fileID: 3777426469109687278}
   - component: {fileID: 1592294759688297820}
   m_Layer: 0
   m_Name: Neptune
@@ -64,6 +63,8 @@ MeshRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -85,9 +86,11 @@ MeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!135 &7524063082849814955
 SphereCollider:
@@ -110,21 +113,6 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &3777426469109687278
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4860846024878684440}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48e460320bf4eed4cbe870aee180a0c0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  PlanetName: Neptune
-  PlanetObject: {fileID: 4860846024878684440}
-  speedMultiplier: 15000
 --- !u!82 &1592294759688297820
 AudioSource:
   m_ObjectHideFlags: 0
@@ -135,7 +123,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 6663004722105642121, guid: c902d31cb2cf06f4699cb33a9fb376b1, type: 2}
-  m_audioClip: {fileID: 8300000, guid: 4f6c90cc00916a345aa3b00ec02fe2f7, type: 3}
+  m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 4f6c90cc00916a345aa3b00ec02fe2f7, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1

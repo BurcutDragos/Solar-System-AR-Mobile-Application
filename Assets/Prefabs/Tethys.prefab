@@ -12,7 +12,8 @@ GameObject:
   - component: {fileID: 8519589360674319514}
   - component: {fileID: 455176571256727917}
   - component: {fileID: 2597909910576405803}
-  - component: {fileID: 3199052868963584066}
+  - component: {fileID: 782932336329662606}
+  - component: {fileID: 1317396105089392234}
   - component: {fileID: 6452001057309615128}
   m_Layer: 0
   m_Name: Tethys
@@ -114,7 +115,7 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &3199052868963584066
+--- !u!114 &782932336329662606
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -123,12 +124,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 287944530791015882}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48e460320bf4eed4cbe870aee180a0c0, type: 3}
+  m_Script: {fileID: 11500000, guid: 95706679c74c0084197a9736e6d759b1, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
-  PlanetName: Tethys
-  PlanetObject: {fileID: 287944530791015882}
+  m_EditorClassIdentifier: Assembly-CSharp::PlanetAutoRotation
+  planetName: Tethys
   speedMultiplier: 15000
+--- !u!114 &1317396105089392234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 287944530791015882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62e1a3fb69a890543821f5d9d6018cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlanetDragRotation
   dragSensitivity: 0.3
 --- !u!82 &6452001057309615128
 AudioSource:

@@ -12,7 +12,8 @@ GameObject:
   - component: {fileID: 8847371883220073690}
   - component: {fileID: 1391014949693388471}
   - component: {fileID: 3037167397275991189}
-  - component: {fileID: 197063127357512688}
+  - component: {fileID: 820893824950449350}
+  - component: {fileID: 5115364205744482903}
   - component: {fileID: 5996699375649795177}
   m_Layer: 0
   m_Name: Haumea
@@ -114,7 +115,7 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &197063127357512688
+--- !u!114 &820893824950449350
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -123,12 +124,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 3492901529749632926}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48e460320bf4eed4cbe870aee180a0c0, type: 3}
+  m_Script: {fileID: 11500000, guid: 95706679c74c0084197a9736e6d759b1, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
-  PlanetName: Haumea
-  PlanetObject: {fileID: 3492901529749632926}
+  m_EditorClassIdentifier: Assembly-CSharp::PlanetAutoRotation
+  planetName: Haumea
   speedMultiplier: 15000
+--- !u!114 &5115364205744482903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3492901529749632926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62e1a3fb69a890543821f5d9d6018cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlanetDragRotation
   dragSensitivity: 0.3
 --- !u!82 &5996699375649795177
 AudioSource:

@@ -483,6 +483,7 @@ GameObject:
   - component: {fileID: 212248663}
   - component: {fileID: 212248662}
   - component: {fileID: 212248661}
+  - component: {fileID: 212248668}
   - component: {fileID: 212248666}
   - component: {fileID: 212248667}
   m_Layer: 5
@@ -618,12 +619,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 860066822c6b793428d79d795efd7ab3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RotationToggle
-  rotationController: {fileID: 6343611607830471313}
+  sceneController: {fileID: 212248668}
   planetAudio: {fileID: 1972164394}
   rotationButton: {fileID: 1030200824}
   soundButton: {fileID: 1866255905}
   resetButton: {fileID: 653609011}
   buttonText: {fileID: 1559680956}
+--- !u!114 &212248668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 212248660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efd9995fd6975664c8bef540aa379bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlanetSceneController
+  autoRotation: {fileID: 6343611607830471314}
+  dragRotation: {fileID: 6343611607830471313}
 --- !u!1 &411937816
 GameObject:
   m_ObjectHideFlags: 0
@@ -924,9 +939,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6343611607830471313}
-        m_TargetAssemblyTypeName: RotationController, Assembly-CSharp
-        m_MethodName: ResetPlanetRotation
+      - m_Target: {fileID: 212248668}
+        m_TargetAssemblyTypeName: PlanetSceneController, Assembly-CSharp
+        m_MethodName: ResetPlanet
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1291,9 +1306,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UnityEngine.Object, UnityEngine
+        m_TargetAssemblyTypeName: PlanetSceneController, Assembly-CSharp
         m_MethodName: 
-        m_Mode: 5
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2193,14 +2208,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 2.64
       objectReference: {fileID: 0}
-    - target: {fileID: 816641750002365457, guid: c6d8eaac88d0845449d8e0eb719220ae, type: 3}
-      propertyPath: buttonText
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 816641750002365457, guid: c6d8eaac88d0845449d8e0eb719220ae, type: 3}
-      propertyPath: soundButton
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 2541479483990632846, guid: c6d8eaac88d0845449d8e0eb719220ae, type: 3}
       propertyPath: m_Name
       value: Venus
@@ -2212,15 +2219,26 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: c6d8eaac88d0845449d8e0eb719220ae, type: 3}
 --- !u!114 &6343611607830471313 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5144261232873176821, guid: c6d8eaac88d0845449d8e0eb719220ae, type: 3}
+  m_CorrespondingSourceObject: {fileID: 8102119812896953244, guid: c6d8eaac88d0845449d8e0eb719220ae, type: 3}
   m_PrefabInstance: {fileID: 6343611607830471312}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48e460320bf4eed4cbe870aee180a0c0, type: 3}
+  m_Script: {fileID: 11500000, guid: 62e1a3fb69a890543821f5d9d6018cc2, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlanetDragRotation
+--- !u!114 &6343611607830471314 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3743179993815163658, guid: c6d8eaac88d0845449d8e0eb719220ae, type: 3}
+  m_PrefabInstance: {fileID: 6343611607830471312}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95706679c74c0084197a9736e6d759b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlanetAutoRotation
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

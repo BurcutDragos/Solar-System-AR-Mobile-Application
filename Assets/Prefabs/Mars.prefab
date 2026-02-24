@@ -12,8 +12,9 @@ GameObject:
   - component: {fileID: 4670870380297135428}
   - component: {fileID: 916895657252364298}
   - component: {fileID: 6358596862589395822}
-  - component: {fileID: 526472858669787349}
   - component: {fileID: 2756396928546222418}
+  - component: {fileID: 6161692528605243900}
+  - component: {fileID: 5711901965986214362}
   m_Layer: 0
   m_Name: Mars
   m_TagString: Untagged
@@ -114,22 +115,6 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &526472858669787349
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8634023100664579199}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48e460320bf4eed4cbe870aee180a0c0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  PlanetName: Mars
-  PlanetObject: {fileID: 8634023100664579199}
-  speedMultiplier: 15000
-  dragSensitivity: 0.3
 --- !u!82 &2756396928546222418
 AudioSource:
   m_ObjectHideFlags: 0
@@ -227,3 +212,30 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &6161692528605243900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8634023100664579199}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95706679c74c0084197a9736e6d759b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlanetAutoRotation
+  planetName: Mars
+  speedMultiplier: 15000
+--- !u!114 &5711901965986214362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8634023100664579199}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62e1a3fb69a890543821f5d9d6018cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlanetDragRotation
+  dragSensitivity: 0.3

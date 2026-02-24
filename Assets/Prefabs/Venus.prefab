@@ -12,7 +12,8 @@ GameObject:
   - component: {fileID: 957500708352281068}
   - component: {fileID: 2203689420341843409}
   - component: {fileID: 7387240338946637927}
-  - component: {fileID: 5144261232873176821}
+  - component: {fileID: 3743179993815163658}
+  - component: {fileID: 8102119812896953244}
   - component: {fileID: 4219790447702839488}
   m_Layer: 0
   m_Name: Venus
@@ -114,7 +115,7 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &5144261232873176821
+--- !u!114 &3743179993815163658
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -123,12 +124,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 2541479483990632846}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48e460320bf4eed4cbe870aee180a0c0, type: 3}
+  m_Script: {fileID: 11500000, guid: 95706679c74c0084197a9736e6d759b1, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
-  PlanetName: Venus
-  PlanetObject: {fileID: 2541479483990632846}
+  m_EditorClassIdentifier: Assembly-CSharp::PlanetAutoRotation
+  planetName: Venus
   speedMultiplier: 15000
+--- !u!114 &8102119812896953244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2541479483990632846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62e1a3fb69a890543821f5d9d6018cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlanetDragRotation
   dragSensitivity: 0.3
 --- !u!82 &4219790447702839488
 AudioSource:

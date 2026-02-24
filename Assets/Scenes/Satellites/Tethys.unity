@@ -373,9 +373,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UnityEngine.Object, UnityEngine
+        m_TargetAssemblyTypeName: PlanetSceneController, Assembly-CSharp
         m_MethodName: 
-        m_Mode: 5
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1486,9 +1486,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3365309363220086400}
-        m_TargetAssemblyTypeName: RotationController, Assembly-CSharp
-        m_MethodName: ResetPlanetRotation
+      - m_Target: {fileID: 1813863637}
+        m_TargetAssemblyTypeName: PlanetSceneController, Assembly-CSharp
+        m_MethodName: ResetPlanet
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1569,6 +1569,7 @@ GameObject:
   - component: {fileID: 1813863632}
   - component: {fileID: 1813863631}
   - component: {fileID: 1813863630}
+  - component: {fileID: 1813863637}
   - component: {fileID: 1813863635}
   - component: {fileID: 1813863636}
   m_Layer: 5
@@ -1704,12 +1705,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 860066822c6b793428d79d795efd7ab3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RotationToggle
-  rotationController: {fileID: 3365309363220086400}
+  sceneController: {fileID: 1813863637}
   planetAudio: {fileID: 3365309363220086399}
   rotationButton: {fileID: 211470924}
   soundButton: {fileID: 1939464251}
   resetButton: {fileID: 1770492926}
   buttonText: {fileID: 1459025640}
+--- !u!114 &1813863637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1813863629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efd9995fd6975664c8bef540aa379bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlanetSceneController
+  autoRotation: {fileID: 3365309363220086401}
+  dragRotation: {fileID: 3365309363220086400}
 --- !u!1 &1866458135
 GameObject:
   m_ObjectHideFlags: 0
@@ -2192,14 +2207,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4286534194106988466, guid: c05a69061b12a6842bc6783fcf564b99, type: 3}
-      propertyPath: buttonText
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4286534194106988466, guid: c05a69061b12a6842bc6783fcf564b99, type: 3}
-      propertyPath: soundButton
-      value: 
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2212,15 +2219,26 @@ AudioSource:
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &3365309363220086400 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3199052868963584066, guid: c05a69061b12a6842bc6783fcf564b99, type: 3}
+  m_CorrespondingSourceObject: {fileID: 1317396105089392234, guid: c05a69061b12a6842bc6783fcf564b99, type: 3}
   m_PrefabInstance: {fileID: 3365309363220086398}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48e460320bf4eed4cbe870aee180a0c0, type: 3}
+  m_Script: {fileID: 11500000, guid: 62e1a3fb69a890543821f5d9d6018cc2, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlanetDragRotation
+--- !u!114 &3365309363220086401 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 782932336329662606, guid: c05a69061b12a6842bc6783fcf564b99, type: 3}
+  m_PrefabInstance: {fileID: 3365309363220086398}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95706679c74c0084197a9736e6d759b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlanetAutoRotation
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
