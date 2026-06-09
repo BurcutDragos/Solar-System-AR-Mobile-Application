@@ -1,0 +1,27 @@
+{
+    "asset": "f8a2e7cb86df5c4418bec235652e69a1",
+    "fileName": "019d6864-33f5-72fd-b042-02f47c33b5c3.jpg",
+    "prompt": "A high-fidelity, realistic deep space background. Vast nebula with subtle purple and blue gaseous clouds, distant twinkling star clusters, galaxies in the far distance, professional astrophotography style, 8k resolution, cinematic lighting, no planets, deep black space contrast.",
+    "negativePrompt": "",
+    "model": "b6e4038c-d863-467d-bb74-4ad8cfd22665",
+    "modelName": "Cinematic",
+    "customSeed": -1,
+    "w3CTraceId": "034fb102614fb6d981c79877760fa9b9",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

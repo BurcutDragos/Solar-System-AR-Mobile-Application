@@ -1,0 +1,23 @@
+{
+    "asset": "267011634717c414fb2d1be68a52454a",
+    "fileName": "019ead4c-3cc9-7395-9b90-35b822ddf0d8.glb",
+    "prompt": "highly detailed realistic Mars rover sensor mast head, cameras, lenses, scientific sensors, pivoting neck, detailed structure",
+    "negativePrompt": "",
+    "model": "model3d-tripo-p1",
+    "modelName": "Tripo P1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "promptImageReferenceGuid": "0a802927c19b4f74badb1a77bb484d08",
+    "modelReferenceGuid": "",
+    "multiviewFrontGuid": "",
+    "multiviewBackGuid": "",
+    "multiviewLeftGuid": "",
+    "multiviewRightGuid": "",
+    "multiviewTopGuid": "",
+    "multiviewBottomGuid": "",
+    "multiviewLeftFrontGuid": "",
+    "multiviewRightFrontGuid": "",
+    "faceLimit": -1
+}

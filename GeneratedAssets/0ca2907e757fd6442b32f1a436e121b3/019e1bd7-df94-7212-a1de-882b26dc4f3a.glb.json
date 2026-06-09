@@ -1,0 +1,23 @@
+{
+    "asset": "0ca2907e757fd6442b32f1a436e121b3",
+    "fileName": "019e1bd7-df94-7212-a1de-882b26dc4f3a.glb",
+    "prompt": "A mechanical suspension arm for a Mars rover.",
+    "negativePrompt": "",
+    "model": "model3d-tripo-p1",
+    "modelName": "Tripo P1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "promptImageReferenceGuid": "654287625b8fca44dbfb725b58a09bb5",
+    "modelReferenceGuid": "",
+    "multiviewFrontGuid": "",
+    "multiviewBackGuid": "",
+    "multiviewLeftGuid": "",
+    "multiviewRightGuid": "",
+    "multiviewTopGuid": "",
+    "multiviewBottomGuid": "",
+    "multiviewLeftFrontGuid": "",
+    "multiviewRightFrontGuid": "",
+    "faceLimit": -1
+}

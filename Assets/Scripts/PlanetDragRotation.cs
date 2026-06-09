@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.InputSystem;
 
 public class PlanetDragRotation : MonoBehaviour
 {
@@ -20,11 +21,7 @@ public class PlanetDragRotation : MonoBehaviour
     {
         if (isPaused) return;
 
-#if UNITY_EDITOR || UNITY_STANDALONE
-        HandleMouse();
-#else
-        HandleTouch();
-#endif
+        HandleInput();
     }
 
     public void SetPaused(bool paused)
@@ -33,60 +30,37 @@ public class PlanetDragRotation : MonoBehaviour
         if (paused) isDragging = false;
     }
 
-    private void HandleMouse()
+    private void HandleInput()
     {
-        if (Input.GetMouseButtonDown(0))
+        Pointer pointer = Pointer.current;
+        if (pointer == null) return;
+
+        Vector2 currentPosition = pointer.position.ReadValue();
+
+        if (pointer.press.wasPressedThisFrame)
         {
-            if (IsPointerOverPlanet(Input.mousePosition))
+            if (IsPointerOverPlanet(currentPosition))
             {
                 isDragging = true;
-                lastPointerPosition = Input.mousePosition;
+                lastPointerPosition = currentPosition;
             }
         }
-
-        if (Input.GetMouseButtonUp(0))
+        else if (pointer.press.wasReleasedThisFrame)
         {
             isDragging = false;
         }
 
-        if (isDragging)
+        if (isDragging && pointer.press.isPressed)
         {
-            Vector2 delta = (Vector2)Input.mousePosition - lastPointerPosition;
+            Vector2 delta = currentPosition - lastPointerPosition;
             ApplyDragRotation(delta);
-            lastPointerPosition = Input.mousePosition;
-        }
-    }
-
-    private void HandleTouch()
-    {
-        if (Input.touchCount == 1)
-        {
-            Touch touch = Input.GetTouch(0);
-
-            if (touch.phase == TouchPhase.Began)
-            {
-                if (IsPointerOverPlanet(touch.position))
-                {
-                    isDragging = true;
-                    lastPointerPosition = touch.position;
-                }
-            }
-            else if (touch.phase == TouchPhase.Moved && isDragging)
-            {
-                Vector2 delta = touch.position - lastPointerPosition;
-                ApplyDragRotation(delta);
-                lastPointerPosition = touch.position;
-            }
-            else if (touch.phase == TouchPhase.Ended)
-            {
-                isDragging = false;
-            }
+            lastPointerPosition = currentPosition;
         }
     }
 
     private bool IsPointerOverPlanet(Vector2 screenPosition)
     {
-        if (EventSystem.current.IsPointerOverGameObject())
+        if (EventSystem.current != null && EventSystem.current.IsPointerOverGameObject())
             return false;
 
         Ray ray = mainCamera.ScreenPointToRay(screenPosition);

@@ -1,0 +1,28 @@
+{
+    "asset": "a80b3b55082ed824aa24158ca3f602bf",
+    "fileName": "019ead47-e46c-7f0a-accf-dca74b1f531c.png",
+    "prompt": "high-quality realistic Mars rover wheel concept, isolated on white, cinematic lighting, 8k, mechanical detail, high traction tread",
+    "negativePrompt": "",
+    "model": "gemini-3.1-flash-texture",
+    "modelName": "Gemini 3.1 Nano Banana 2",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

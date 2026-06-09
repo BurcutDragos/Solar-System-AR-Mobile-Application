@@ -1,0 +1,23 @@
+{
+    "asset": "8c9a082ee34259b41aca1e041841a5ff",
+    "fileName": "019ead4c-659f-7aeb-a446-2877f83bbbce.glb",
+    "prompt": "highly detailed realistic scientific Mars rover chassis, top-down perspective, metal and carbon fiber, scientific instruments, rugged design",
+    "negativePrompt": "",
+    "model": "model3d-tripo-p1",
+    "modelName": "Tripo P1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "promptImageReferenceGuid": "e2ce0bfbe6483d14ca0c30b2acaf1f70",
+    "modelReferenceGuid": "",
+    "multiviewFrontGuid": "",
+    "multiviewBackGuid": "",
+    "multiviewLeftGuid": "",
+    "multiviewRightGuid": "",
+    "multiviewTopGuid": "",
+    "multiviewBottomGuid": "",
+    "multiviewLeftFrontGuid": "",
+    "multiviewRightFrontGuid": "",
+    "faceLimit": -1
+}

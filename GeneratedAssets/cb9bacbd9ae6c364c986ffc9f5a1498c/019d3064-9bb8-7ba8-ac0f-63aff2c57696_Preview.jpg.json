@@ -1,0 +1,12 @@
+{
+    "asset": "cb9bacbd9ae6c364c986ffc9f5a1498c",
+    "fileName": "019d3064-9bb8-7ba8-ac0f-63aff2c57696_Preview.jpg",
+    "prompt": "Realistic 3D surface material for the planet Pluto. Includes high-detail normal map and displacement map for mountains, valleys, and icy plains. The texture should be inspired by the reddish-brown and white icy features of Pluto, especially the Sputnik Planitia heart. Seamless and realistic topography.",
+    "negativePrompt": "",
+    "model": "1a149e0e-3482-46a2-be9b-de997b8829fb",
+    "modelName": "Realistic Textures 3.0",
+    "customSeed": 2046615904,
+    "w3CTraceId": "62782348430f2c10c15bb0717fef5315",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

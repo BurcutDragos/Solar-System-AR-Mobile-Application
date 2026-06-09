@@ -1,0 +1,23 @@
+{
+    "asset": "382d1b4fb557ebd4a854dcae6fd6161f",
+    "fileName": "019e6589-97dd-7b21-9f0e-c55b30ff7a62.glb",
+    "prompt": "High-fidelity 4-wheeled off-road planetary rover, cohesive 3D model, wheels physically attached to chassis via suspension.",
+    "negativePrompt": "",
+    "model": "model3d-tripo-p1",
+    "modelName": "Tripo P1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "promptImageReferenceGuid": "37f22431963623f43ad5851886774d77",
+    "modelReferenceGuid": "",
+    "multiviewFrontGuid": "",
+    "multiviewBackGuid": "",
+    "multiviewLeftGuid": "",
+    "multiviewRightGuid": "",
+    "multiviewTopGuid": "",
+    "multiviewBottomGuid": "",
+    "multiviewLeftFrontGuid": "",
+    "multiviewRightFrontGuid": "",
+    "faceLimit": -1
+}

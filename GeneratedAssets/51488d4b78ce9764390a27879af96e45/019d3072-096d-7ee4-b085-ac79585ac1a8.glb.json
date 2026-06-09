@@ -1,0 +1,12 @@
+{
+    "asset": "51488d4b78ce9764390a27879af96e45",
+    "fileName": "019d3072-096d-7ee4-b085-ac79585ac1a8.glb",
+    "prompt": "Dwarf planet Pluto. High-fidelity 3D mesh with detailed surface relief including the heart-shaped icy plains (Sputnik Planitia), high mountain ranges like Norgay Montes, deep valleys, and rocky craters. The model should have pronounced vertical topography (peaks and valleys) that are clearly visible as a 3D relief, not just a smooth sphere. Realistic astronomical 3D planet.",
+    "negativePrompt": "",
+    "model": "f923f4af-999c-47c7-b9bf-b8952ffe003e",
+    "modelName": "Rodin Hyper 3D",
+    "customSeed": -1,
+    "w3CTraceId": "ad03e3311b61a067e50ba08330288d24",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

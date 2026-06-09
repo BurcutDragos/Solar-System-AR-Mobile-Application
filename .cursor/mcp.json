@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "unity-mcp-gateway": {
+      "command": "D:\\Aplicatii Unity\\Solar System AR Mobile Application\\Library\\PackageCache\\com.unity.ai.assistant@e1f49a972172\\RelayApp~\\relay_win.exe",
+      "args": [
+        "--mcp",
+        "--log-dir",
+        "D:\\Aplicatii Unity\\Solar System AR Mobile Application\\Logs"
+      ],
+      "env": {
+        "UNITY_ACP_SESSION_TOKEN": "d1c23d9205884974fb9fc676a8ab02dff8d3b2cd53af8f5b676fb1f9bb5ca757",
+        "UNITY_INSTANCE_ID": "10940"
+      }
+    }
+  }
+}

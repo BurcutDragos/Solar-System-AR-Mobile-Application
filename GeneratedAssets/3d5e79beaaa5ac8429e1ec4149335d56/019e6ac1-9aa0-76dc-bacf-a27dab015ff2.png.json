@@ -1,0 +1,28 @@
+{
+    "asset": "3d5e79beaaa5ac8429e1ec4149335d56",
+    "fileName": "019e6ac1-9aa0-76dc-bacf-a27dab015ff2.png",
+    "prompt": "A realistic aerial planetary surface texture for Mars. Colors: Deep reddish-orange dust, dark black basaltic rocks, weathered craters, and fine-grained rocky plains. High-fidelity 4k exploration map.",
+    "negativePrompt": "",
+    "model": "gpt-image-1",
+    "modelName": "GPT Image 1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

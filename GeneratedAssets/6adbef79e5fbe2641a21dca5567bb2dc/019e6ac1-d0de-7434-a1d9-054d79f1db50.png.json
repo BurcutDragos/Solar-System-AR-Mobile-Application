@@ -1,0 +1,28 @@
+{
+    "asset": "6adbef79e5fbe2641a21dca5567bb2dc",
+    "fileName": "019e6ac1-d0de-7434-a1d9-054d79f1db50.png",
+    "prompt": "A high-fidelity top-down grayscale heightmap of Pluto's surface. Includes vast, perfectly flat nitrogen ice plains with polygonal textures, contrasted with sharp, jagged water-ice mountain ranges and deep pits. High relief contrast. Black is lowest, white is highest.",
+    "negativePrompt": "",
+    "model": "gpt-image-1",
+    "modelName": "GPT Image 1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

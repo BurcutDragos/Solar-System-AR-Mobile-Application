@@ -1,0 +1,12 @@
+{
+    "asset": "9b774efb739d7484381eaa9905eeba60",
+    "fileName": "019d3de8-b55a-7cc0-84f7-db47e1d8112e.glb",
+    "prompt": "Dwarf planet Pluto. High-fidelity 3D model with extreme vertical relief topography. Features highly pronounced mountain ranges (Norgay Montes), deep impact craters, and the large heart-shaped basin (Sputnik Planitia) as a deep valley. The mesh must show clearly visible 3D peaks and valleys that alter the silhouette of the sphere. High polygon count for sharp terrain details. No flat surfaces.",
+    "negativePrompt": "",
+    "model": "f923f4af-999c-47c7-b9bf-b8952ffe003e",
+    "modelName": "Rodin Hyper 3D",
+    "customSeed": -1,
+    "w3CTraceId": "379b998d9a8b72d43473b749abe711f4",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

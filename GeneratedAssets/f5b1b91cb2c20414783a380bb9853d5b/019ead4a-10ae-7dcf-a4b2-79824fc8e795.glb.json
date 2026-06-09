@@ -1,0 +1,23 @@
+{
+    "asset": "f5b1b91cb2c20414783a380bb9853d5b",
+    "fileName": "019ead4a-10ae-7dcf-a4b2-79824fc8e795.glb",
+    "prompt": "high-quality realistic Mars rover suspension arm, rocker bogie component, mechanical detail, metal finish",
+    "negativePrompt": "",
+    "model": "model3d-tripo-p1",
+    "modelName": "Tripo P1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "promptImageReferenceGuid": "bbf20310a742a044b8b53a4cc6dc6244",
+    "modelReferenceGuid": "",
+    "multiviewFrontGuid": "",
+    "multiviewBackGuid": "",
+    "multiviewLeftGuid": "",
+    "multiviewRightGuid": "",
+    "multiviewTopGuid": "",
+    "multiviewBottomGuid": "",
+    "multiviewLeftFrontGuid": "",
+    "multiviewRightFrontGuid": "",
+    "faceLimit": -1
+}

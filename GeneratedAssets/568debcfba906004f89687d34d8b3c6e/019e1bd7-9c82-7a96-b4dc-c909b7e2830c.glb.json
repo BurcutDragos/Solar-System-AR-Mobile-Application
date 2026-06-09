@@ -1,0 +1,23 @@
+{
+    "asset": "568debcfba906004f89687d34d8b3c6e",
+    "fileName": "019e1bd7-9c82-7a96-b4dc-c909b7e2830c.glb",
+    "prompt": "A rugged Mars rover wheel, realistic tire treads.",
+    "negativePrompt": "",
+    "model": "model3d-tripo-p1",
+    "modelName": "Tripo P1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "promptImageReferenceGuid": "8452fdf9ccaafae44a11c299edbd496d",
+    "modelReferenceGuid": "",
+    "multiviewFrontGuid": "",
+    "multiviewBackGuid": "",
+    "multiviewLeftGuid": "",
+    "multiviewRightGuid": "",
+    "multiviewTopGuid": "",
+    "multiviewBottomGuid": "",
+    "multiviewLeftFrontGuid": "",
+    "multiviewRightFrontGuid": "",
+    "faceLimit": -1
+}

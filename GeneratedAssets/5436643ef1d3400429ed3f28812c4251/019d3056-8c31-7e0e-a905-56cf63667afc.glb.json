@@ -1,0 +1,12 @@
+{
+    "asset": "5436643ef1d3400429ed3f28812c4251",
+    "fileName": "019d3056-8c31-7e0e-a905-56cf63667afc.glb",
+    "prompt": "Dwarf planet Pluto. High-fidelity 3D mesh with detailed surface relief including mountains, deep valleys, the famous heart-shaped region (Tombaugh Regio), and rocky craters. Realistic coloring and PBR materials based on NASA imagery. Perfect spherical shape but with high-detail 3D terrain features (mountains and valleys).",
+    "negativePrompt": "",
+    "model": "f923f4af-999c-47c7-b9bf-b8952ffe003e",
+    "modelName": "Rodin Hyper 3D",
+    "customSeed": -1,
+    "w3CTraceId": "72a736772e3aff9072a2c6f48a7d042a",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

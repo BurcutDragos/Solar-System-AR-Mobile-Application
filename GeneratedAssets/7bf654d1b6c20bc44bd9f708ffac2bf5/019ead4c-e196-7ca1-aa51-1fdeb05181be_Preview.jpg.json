@@ -1,0 +1,12 @@
+{
+    "asset": "7bf654d1b6c20bc44bd9f708ffac2bf5",
+    "fileName": "019ead4c-e196-7ca1-aa51-1fdeb05181be_Preview.jpg",
+    "prompt": "realistic weathered titanium metal, sci-fi plating, scratches, high quality, PBR, metallic, roughness, normal maps",
+    "negativePrompt": "",
+    "model": "realistic-textures-3-0",
+    "modelName": "Realistic Textures 3.0",
+    "customSeed": 710291356,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

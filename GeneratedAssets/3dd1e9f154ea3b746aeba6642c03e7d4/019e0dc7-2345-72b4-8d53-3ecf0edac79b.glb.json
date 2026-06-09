@@ -1,0 +1,23 @@
+{
+    "asset": "3dd1e9f154ea3b746aeba6642c03e7d4",
+    "fileName": "019e0dc7-2345-72b4-8d53-3ecf0edac79b.glb",
+    "prompt": "A high-quality 3D model of a complex space rover with multiple wheels and scientific equipment. High-tech, futuristic design.",
+    "negativePrompt": "",
+    "model": "model3d-tripo-p1",
+    "modelName": "Tripo P1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "promptImageReferenceGuid": "0987cd403ddc5e44691284ca6b146b47",
+    "modelReferenceGuid": "",
+    "multiviewFrontGuid": "",
+    "multiviewBackGuid": "",
+    "multiviewLeftGuid": "",
+    "multiviewRightGuid": "",
+    "multiviewTopGuid": "",
+    "multiviewBottomGuid": "",
+    "multiviewLeftFrontGuid": "",
+    "multiviewRightFrontGuid": "",
+    "faceLimit": -1
+}

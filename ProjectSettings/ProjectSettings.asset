@@ -114,6 +114,7 @@ PlayerSettings:
   xboxEnableGuest: 0
   xboxEnablePIXSampling: 0
   metalFramebufferOnly: 0
+  metalUseMetalDisplayLink: 0
   xboxOneResolution: 0
   xboxOneSResolution: 0
   xboxOneXResolution: 3
@@ -1013,12 +1014,12 @@ PlayerSettings:
   qnxGraphicConfPath: 
   apiCompatibilityLevel: 6
   captureStartupLogs: {}
-  activeInputHandler: 2
+  activeInputHandler: 1
   windowsGamepadBackendHint: 0
   cloudProjectId: 8745390e-046d-49d2-8cb6-b0bf963b3360
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Solar_System_Celestial_Bodies
+  projectName: Solar_System_AR_Mobile_Application
   organizationId: dragos1997
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0

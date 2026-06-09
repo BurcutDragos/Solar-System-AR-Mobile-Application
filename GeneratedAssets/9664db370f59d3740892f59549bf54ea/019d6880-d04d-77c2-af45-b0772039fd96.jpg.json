@@ -1,0 +1,27 @@
+{
+    "asset": "9664db370f59d3740892f59549bf54ea",
+    "fileName": "019d6880-d04d-77c2-af45-b0772039fd96.jpg",
+    "prompt": "Professional 8k night sky, ultra-realistic astrophotography from a telescope, absolute pitch black background, overwhelming density of brilliant sharp twinkling stars, dense bands of star clusters, pin-point star clarity, high contrast, no nebulae, no gaseous clouds, pure space void filled with stars, realistic magnitudes.",
+    "negativePrompt": "",
+    "model": "b6e4038c-d863-467d-bb74-4ad8cfd22665",
+    "modelName": "Cinematic",
+    "customSeed": -1,
+    "w3CTraceId": "8ba622e144d7c5a61b4f0645d584ef4c",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

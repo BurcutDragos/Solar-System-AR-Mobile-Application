@@ -1,0 +1,28 @@
+{
+    "asset": "5c6160884bf38c843ad305f63493ce18",
+    "fileName": "019e1bc9-2074-7dda-9379-bbceb8a73953.png",
+    "prompt": "A high-detail, realistic 3D render of a modular Mars exploration rover, similar to Curiosity or Perseverance. The image should show the rover from a three-quarter perspective, clearly showing its six wheels, articulated rocker-bogie suspension system, main chassis, and camera mast. Background should be a clean, neutral studio setting to make it a perfect reference for 3D modeling. Concept art style, clean lines, high resolution.",
+    "negativePrompt": "",
+    "model": "gemini-3.1-flash",
+    "modelName": "Gemini 3.1 Nano Banana 2",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

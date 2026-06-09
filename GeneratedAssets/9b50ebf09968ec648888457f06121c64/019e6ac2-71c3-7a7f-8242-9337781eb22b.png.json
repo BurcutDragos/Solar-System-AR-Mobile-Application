@@ -1,0 +1,28 @@
+{
+    "asset": "9b50ebf09968ec648888457f06121c64",
+    "fileName": "019e6ac2-71c3-7a7f-8242-9337781eb22b.png",
+    "prompt": "A realistic aerial planetary surface texture for Pluto. Colors: Bright white and light blue nitrogen ice plains, mixed with darker reddish-brown tholin deposits and icy mountains. High-fidelity icy exploration map.",
+    "negativePrompt": "",
+    "model": "gpt-image-1",
+    "modelName": "GPT Image 1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

@@ -1,0 +1,27 @@
+{
+    "asset": "7c20b273db2391547aa2389a33cdfa83",
+    "fileName": "019d3046-a471-7761-b8bf-47cd1d310716.jpg",
+    "prompt": "Realistic high-resolution texture map of the dwarf planet Pluto. The texture should include the famous heart-shaped region (Tombaugh Regio), mountains, valleys, icy plains, and reddish-brown rocky terrain. The map should be an equirectangular projection suitable for a spherical planet. Detailed landforms like peaks and craters should be visible.",
+    "negativePrompt": "",
+    "model": "1a149e0e-3482-46a2-be9b-de997b8829fb",
+    "modelName": "Realistic Textures 3.0",
+    "customSeed": -1,
+    "w3CTraceId": "8140ae81081bd478b1d0a6f653f722c8",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

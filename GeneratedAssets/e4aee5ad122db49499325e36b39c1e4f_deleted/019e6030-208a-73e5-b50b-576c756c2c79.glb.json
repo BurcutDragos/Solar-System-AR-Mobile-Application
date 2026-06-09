@@ -1,0 +1,23 @@
+{
+    "asset": "e4aee5ad122db49499325e36b39c1e4f",
+    "fileName": "019e6030-208a-73e5-b50b-576c756c2c79.glb",
+    "prompt": "A cohesive 4-wheeled planetary rover with wheels physically attached to the chassis.",
+    "negativePrompt": "",
+    "model": "model3d-tripo-p1",
+    "modelName": "Tripo P1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "promptImageReferenceGuid": "07e5b9f3c0441164b91fb3ef24d0b703",
+    "modelReferenceGuid": "",
+    "multiviewFrontGuid": "",
+    "multiviewBackGuid": "",
+    "multiviewLeftGuid": "",
+    "multiviewRightGuid": "",
+    "multiviewTopGuid": "",
+    "multiviewBottomGuid": "",
+    "multiviewLeftFrontGuid": "",
+    "multiviewRightFrontGuid": "",
+    "faceLimit": -1
+}

@@ -1,0 +1,28 @@
+{
+    "asset": "a9a475bfd57c7d34ab483489dcda04b2",
+    "fileName": "019e69c6-686b-7c2a-9989-96f81a71f13a.png",
+    "prompt": "Realistic aerial view of Pluto's surface, pale white and light blue nitrogen ice plains, darker brown-red tholin deposits in mountainous regions, high fidelity texture. Matches an icy planetary surface.",
+    "negativePrompt": "",
+    "model": "gpt-image-1",
+    "modelName": "GPT Image 1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

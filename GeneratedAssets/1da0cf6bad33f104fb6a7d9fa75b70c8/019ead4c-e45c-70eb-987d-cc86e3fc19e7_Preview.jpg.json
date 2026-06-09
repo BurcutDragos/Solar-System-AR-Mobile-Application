@@ -1,0 +1,12 @@
+{
+    "asset": "1da0cf6bad33f104fb6a7d9fa75b70c8",
+    "fileName": "019ead4c-e45c-70eb-987d-cc86e3fc19e7_Preview.jpg",
+    "prompt": "realistic black rubber tire material, rugged, dirt and dust, PBR, high quality",
+    "negativePrompt": "",
+    "model": "realistic-textures-3-0",
+    "modelName": "Realistic Textures 3.0",
+    "customSeed": 1609208182,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

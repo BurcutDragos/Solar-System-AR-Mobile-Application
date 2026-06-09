@@ -1,0 +1,28 @@
+{
+    "asset": "bee144801652e1b4fb38259265bff891",
+    "fileName": "019e69c5-9c17-76f7-baac-cb10e9e5a208.png",
+    "prompt": "Realistic aerial view of Mercury surface, shades of light gray and white, heavily cratered dusty surface, rocky texture, planetary surface. Matches a cratered landscape.",
+    "negativePrompt": "",
+    "model": "gpt-image-1",
+    "modelName": "GPT Image 1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

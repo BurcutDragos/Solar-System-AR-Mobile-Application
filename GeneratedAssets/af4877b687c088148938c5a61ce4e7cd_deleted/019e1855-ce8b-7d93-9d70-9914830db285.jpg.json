@@ -1,0 +1,28 @@
+{
+    "asset": "af4877b687c088148938c5a61ce4e7cd",
+    "fileName": "019e1855-ce8b-7d93-9d70-9914830db285.jpg",
+    "prompt": "A highly detailed and realistic planetary exploration rover, futuristic design, multiple scientific instruments, 6 rugged wheels, high-tech metallic finish, cinematic lighting, isolated on a neutral background, studio photography style.",
+    "negativePrompt": "",
+    "model": "flux-2-pro",
+    "modelName": "Flux 2 (Pro)",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

@@ -1,0 +1,23 @@
+{
+    "asset": "31b4eb341108bae4b88ff2f95bba7d28",
+    "fileName": "019e1bca-e8b9-7698-bd81-3578b1f52212.glb",
+    "prompt": "A highly detailed, modular Mars rover with separate wheels and articulated suspension arms, based on the reference image. The model should have a clear hierarchy with the chassis as the root and wheels as separate sub-meshes for physics simulation. High quality PBR textures.",
+    "negativePrompt": "",
+    "model": "model3d-tripo-p1",
+    "modelName": "Tripo P1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "promptImageReferenceGuid": "5c6160884bf38c843ad305f63493ce18",
+    "modelReferenceGuid": "",
+    "multiviewFrontGuid": "",
+    "multiviewBackGuid": "",
+    "multiviewLeftGuid": "",
+    "multiviewRightGuid": "",
+    "multiviewTopGuid": "",
+    "multiviewBottomGuid": "",
+    "multiviewLeftFrontGuid": "",
+    "multiviewRightFrontGuid": "",
+    "faceLimit": -1
+}

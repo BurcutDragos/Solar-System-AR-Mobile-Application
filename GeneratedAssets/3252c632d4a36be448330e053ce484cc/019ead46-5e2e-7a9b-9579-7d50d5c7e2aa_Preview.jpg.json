@@ -1,0 +1,12 @@
+{
+    "asset": "3252c632d4a36be448330e053ce484cc",
+    "fileName": "019ead46-5e2e-7a9b-9579-7d50d5c7e2aa_Preview.jpg",
+    "prompt": "high-quality realistic Martian ground texture, red dusty sand, volcanic rocks, fine details, seamless, high resolution, PBR maps",
+    "negativePrompt": "",
+    "model": "realistic-textures-3-0",
+    "modelName": "Realistic Textures 3.0",
+    "customSeed": 1421897704,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

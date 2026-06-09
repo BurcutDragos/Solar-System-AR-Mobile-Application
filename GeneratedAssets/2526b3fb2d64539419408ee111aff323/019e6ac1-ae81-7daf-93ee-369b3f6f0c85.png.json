@@ -1,0 +1,28 @@
+{
+    "asset": "2526b3fb2d64539419408ee111aff323",
+    "fileName": "019e6ac1-ae81-7daf-93ee-369b3f6f0c85.png",
+    "prompt": "A high-fidelity top-down grayscale heightmap of Mercury's surface. Heavily cratered terrain with overlapping impact basins, flat lava plains, and jagged ridges (scarps). High detail planetary relief. Black is lowest, white is highest.",
+    "negativePrompt": "",
+    "model": "gpt-image-1",
+    "modelName": "GPT Image 1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

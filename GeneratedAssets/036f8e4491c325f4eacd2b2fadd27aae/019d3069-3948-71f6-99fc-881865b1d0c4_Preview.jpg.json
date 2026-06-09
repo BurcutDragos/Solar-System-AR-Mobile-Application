@@ -1,0 +1,12 @@
+{
+    "asset": "036f8e4491c325f4eacd2b2fadd27aae",
+    "fileName": "019d3069-3948-71f6-99fc-881865b1d0c4_Preview.jpg",
+    "prompt": "Realistic high-relief surface material for the dwarf planet Pluto. Includes high-resolution normal maps and height maps for 3D-like rocky and icy topography. Inspired by the reddish-brown craters and the white icy plains of Sputnik Planitia. Seamless and highly detailed textures for a close-up flight simulator.",
+    "negativePrompt": "",
+    "model": "1a149e0e-3482-46a2-be9b-de997b8829fb",
+    "modelName": "Realistic Textures 3.0",
+    "customSeed": 816199521,
+    "w3CTraceId": "8f08dd10d1b5a9b3fe952f7e7263dd6e",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

@@ -1,0 +1,12 @@
+{
+    "asset": "c413db4236e8c60409cf2961bab88314",
+    "fileName": "019ead4c-e261-755e-9e05-6218c32a932a_Preview.jpg",
+    "prompt": "realistic carbon fiber weave, high quality, PBR, gloss, detailed texture",
+    "negativePrompt": "",
+    "model": "realistic-textures-3-0",
+    "modelName": "Realistic Textures 3.0",
+    "customSeed": 2076264109,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

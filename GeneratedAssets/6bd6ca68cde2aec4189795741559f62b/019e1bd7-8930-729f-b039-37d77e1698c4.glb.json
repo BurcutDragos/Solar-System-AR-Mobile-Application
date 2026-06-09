@@ -1,0 +1,23 @@
+{
+    "asset": "6bd6ca68cde2aec4189795741559f62b",
+    "fileName": "019e1bd7-8930-729f-b039-37d77e1698c4.glb",
+    "prompt": "A highly detailed sci-fi Mars rover chassis, realistic PBR textures, no wheels, no arms. Realistic, rugged.",
+    "negativePrompt": "",
+    "model": "model3d-tripo-p1",
+    "modelName": "Tripo P1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "promptImageReferenceGuid": "e0c4fb57c186f86458fa38ed3b2337a6",
+    "modelReferenceGuid": "",
+    "multiviewFrontGuid": "",
+    "multiviewBackGuid": "",
+    "multiviewLeftGuid": "",
+    "multiviewRightGuid": "",
+    "multiviewTopGuid": "",
+    "multiviewBottomGuid": "",
+    "multiviewLeftFrontGuid": "",
+    "multiviewRightFrontGuid": "",
+    "faceLimit": -1
+}

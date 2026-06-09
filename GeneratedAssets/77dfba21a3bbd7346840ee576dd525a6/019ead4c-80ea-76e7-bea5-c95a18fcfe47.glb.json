@@ -1,0 +1,23 @@
+{
+    "asset": "77dfba21a3bbd7346840ee576dd525a6",
+    "fileName": "019ead4c-80ea-76e7-bea5-c95a18fcfe47.glb",
+    "prompt": "highly detailed realistic Mars rover wheel, rugged metal tread, mechanical hub, high traction design",
+    "negativePrompt": "",
+    "model": "model3d-tripo-p1",
+    "modelName": "Tripo P1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "promptImageReferenceGuid": "060bc11a03d22e0479661ff523bd7f5a",
+    "modelReferenceGuid": "",
+    "multiviewFrontGuid": "",
+    "multiviewBackGuid": "",
+    "multiviewLeftGuid": "",
+    "multiviewRightGuid": "",
+    "multiviewTopGuid": "",
+    "multiviewBottomGuid": "",
+    "multiviewLeftFrontGuid": "",
+    "multiviewRightFrontGuid": "",
+    "faceLimit": -1
+}

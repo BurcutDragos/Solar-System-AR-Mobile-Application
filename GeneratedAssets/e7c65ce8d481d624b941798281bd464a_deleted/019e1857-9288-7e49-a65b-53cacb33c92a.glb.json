@@ -1,0 +1,23 @@
+{
+    "asset": "e7c65ce8d481d624b941798281bd464a",
+    "fileName": "019e1857-9288-7e49-a65b-53cacb33c92a.glb",
+    "prompt": "A highly detailed and realistic planetary exploration rover, matching the futuristic design and scientific instruments of the reference image. 3D game-ready asset.",
+    "negativePrompt": "",
+    "model": "model3d-tripo-p1",
+    "modelName": "Tripo P1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "promptImageReferenceGuid": "af4877b687c088148938c5a61ce4e7cd",
+    "modelReferenceGuid": "",
+    "multiviewFrontGuid": "",
+    "multiviewBackGuid": "",
+    "multiviewLeftGuid": "",
+    "multiviewRightGuid": "",
+    "multiviewTopGuid": "",
+    "multiviewBottomGuid": "",
+    "multiviewLeftFrontGuid": "",
+    "multiviewRightFrontGuid": "",
+    "faceLimit": -1
+}

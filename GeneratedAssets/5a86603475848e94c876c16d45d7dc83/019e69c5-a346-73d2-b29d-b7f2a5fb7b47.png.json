@@ -1,0 +1,28 @@
+{
+  "asset": "5a86603475848e94c876c16d45d7dc83",
+  "fileName": "019e69c5-a346-73d2-b29d-b7f2a5fb7b47.png",
+  "prompt": "Top-down grayscale heightmap of Mars surface, including large impact craters, flat volcanic plains, and scattered rounded hills. High contrast, sharp details, planetary relief. Black is low, white is high.",
+  "negativePrompt": "",
+  "model": "gpt-image-1",
+  "modelName": "GPT Image 1",
+  "customSeed": -1,
+  "w3CTraceId": "",
+  "feedback": 1,
+  "refinementMode": "Generation",
+  "pixelateTargetSize": 0,
+  "pixelateKeepImageSize": false,
+  "pixelatePixelBlockSize": 0,
+  "pixelatePixelGridSize": 0,
+  "pixelateMode": 0,
+  "pixelateOutlineThickness": 0,
+  "doodles": {
+    "m_Items": []
+  },
+  "upscaleFactor": 0,
+  "dimensions": {
+    "width": 1024,
+    "height": 1024
+  },
+  "spriteSheet": false,
+  "duration": 0.0
+}

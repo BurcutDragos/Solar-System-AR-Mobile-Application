@@ -1,0 +1,27 @@
+{
+    "asset": "52c2b76a3a1c1734d98612c2592e86f2",
+    "fileName": "019d6867-0c36-7894-a87a-5cee2aeffce4.jpg",
+    "prompt": "Deep space starfield, pitch black background, multitude of sharp and bright twinkling stars, realistic star density, varying star magnitudes, professional astronomical clarity, high contrast, absolute black void, no nebulae, no gaseous clouds, no galaxies, just a vast sea of stars.",
+    "negativePrompt": "",
+    "model": "b6e4038c-d863-467d-bb74-4ad8cfd22665",
+    "modelName": "Cinematic",
+    "customSeed": -1,
+    "w3CTraceId": "d8062fb84153de33b27c132fa38c73c4",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

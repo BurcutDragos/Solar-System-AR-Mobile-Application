@@ -1,0 +1,28 @@
+{
+    "asset": "9ea5002082ef43d4aa52116a7c1b328c",
+    "fileName": "019e69c5-9fb4-7d44-acea-a83680242448.png",
+    "prompt": "Realistic aerial view of Mars terrain, reddish-orange dust, dark black basaltic rock outcrops, scattered craters and hills, high fidelity planetary texture. Matches a planetary surface with plains and craters.",
+    "negativePrompt": "",
+    "model": "gpt-image-1",
+    "modelName": "GPT Image 1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

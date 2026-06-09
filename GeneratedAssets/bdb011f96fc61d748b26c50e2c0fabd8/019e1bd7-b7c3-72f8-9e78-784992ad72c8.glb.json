@@ -1,0 +1,23 @@
+{
+    "asset": "bdb011f96fc61d748b26c50e2c0fabd8",
+    "fileName": "019e1bd7-b7c3-72f8-9e78-784992ad72c8.glb",
+    "prompt": "A sci-fi Mars rover camera mast.",
+    "negativePrompt": "",
+    "model": "model3d-tripo-p1",
+    "modelName": "Tripo P1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "promptImageReferenceGuid": "ff82effa80e5b7541a11e9f78c3af9a5",
+    "modelReferenceGuid": "",
+    "multiviewFrontGuid": "",
+    "multiviewBackGuid": "",
+    "multiviewLeftGuid": "",
+    "multiviewRightGuid": "",
+    "multiviewTopGuid": "",
+    "multiviewBottomGuid": "",
+    "multiviewLeftFrontGuid": "",
+    "multiviewRightFrontGuid": "",
+    "faceLimit": -1
+}

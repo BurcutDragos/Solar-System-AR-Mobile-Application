@@ -1,0 +1,28 @@
+{
+    "asset": "07e5b9f3c0441164b91fb3ef24d0b703",
+    "fileName": "019e602d-7b08-7752-9289-839e532e2a0d.png",
+    "prompt": "A professional industrial design concept of a 4-wheeled planetary exploration rover, side profile view, high-fidelity mechanical detail, white armored chassis with industrial yellow accents, 4 massive rugged black tires physically connected to the body with thick double-wishbone suspension arms, camera mast on top, clear connectivity between all parts, studio lighting, white background.",
+    "negativePrompt": "",
+    "model": "gpt-image-1",
+    "modelName": "GPT Image 1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

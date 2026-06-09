@@ -1,0 +1,28 @@
+{
+    "asset": "37f22431963623f43ad5851886774d77",
+    "fileName": "019e6587-d77f-7cc4-9647-7a7b8bf30cf7.png",
+    "prompt": "A high-fidelity industrial design of a 4-wheeled off-road planetary exploration rover. Rugged white armored chassis with industrial yellow highlights. 4 large, chunky black off-road tires physically connected to the main body via thick, visible double-wishbone mechanical suspension arms. Cohesive and manifold design where all parts are bolted together. Scientific sensor mast on top. Studio lighting, white background.",
+    "negativePrompt": "",
+    "model": "gpt-image-1",
+    "modelName": "GPT Image 1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

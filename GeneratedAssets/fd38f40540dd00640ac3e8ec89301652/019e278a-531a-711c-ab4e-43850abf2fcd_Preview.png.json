@@ -1,0 +1,12 @@
+{
+    "asset": "fd38f40540dd00640ac3e8ec89301652",
+    "fileName": "019e278a-531a-711c-ab4e-43850abf2fcd_Preview.png",
+    "prompt": "High-fidelity industrial planetary rover mechanical surface, rusty metal, bolts, wires, aerospace hardware texture, highly detailed, PBR ready.",
+    "negativePrompt": "",
+    "model": "gemini-3.1-flash-texture",
+    "modelName": "Gemini 3.1 Nano Banana 2",
+    "customSeed": 244556380,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}
