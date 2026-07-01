@@ -1,0 +1,31 @@
+{
+    "asset": "40bf5ee6f9afe794db3c50b60f70f1b0",
+    "fileName": "019f14a9-fccc-70e3-a5f0-f5b31e0dded6.png",
+    "prompt": "Inside the upper atmosphere of the gas giant Jupiter, vast horizontal cloud bands stretching to infinity. Layered creamy white, pale gold, ochre, rust-orange and deep brown zonal cloud belts curving across the sky. Towering ammonia cloud decks and swirling turbulent storm ribbons. A faint enormous Great Red Spot storm far on the horizon. Hazy volumetric depth, soft distant sunlight from low angle casting warm golden glow, subtle atmospheric scattering, no ground, no terrain, no spacecraft. Epic cinematic planetary scale, photoreal NASA Juno probe aesthetic, high dynamic range, smooth gradients.",
+    "negativePrompt": "",
+    "model": "skybox-cinematic",
+    "modelName": "Cinematic",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0,
+    "dynamicParams": {
+        "serializedData": []
+    }
+}

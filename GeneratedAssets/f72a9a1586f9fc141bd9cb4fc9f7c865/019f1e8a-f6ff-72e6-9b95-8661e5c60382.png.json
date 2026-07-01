@@ -1,0 +1,31 @@
+{
+    "asset": "f72a9a1586f9fc141bd9cb4fc9f7c865",
+    "fileName": "019f1e8a-f6ff-72e6-9b95-8661e5c60382.png",
+    "prompt": "Deep inside dense Saturn cloud, totally immersed in thick pale gold cream and butterscotch clouds and haze that completely fill the whole view in every direction top and bottom and all sides, swirling ammonia cloud everywhere close around the viewer, brighter golden haze above fading to darker golden brown below, no open sky, no gap, no horizon, no horizon line, no sun, no orb, no disk, no planet, no sphere, no rings, no ground, no terrain, no mountains, no space.",
+    "negativePrompt": "",
+    "model": "skybox-cinematic",
+    "modelName": "Cinematic",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0,
+    "dynamicParams": {
+        "serializedData": []
+    }
+}

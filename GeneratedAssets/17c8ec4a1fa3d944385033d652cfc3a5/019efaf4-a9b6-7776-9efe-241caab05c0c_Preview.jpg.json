@@ -1,0 +1,12 @@
+{
+    "asset": "17c8ec4a1fa3d944385033d652cfc3a5",
+    "fileName": "019efaf4-a9b6-7776-9efe-241caab05c0c_Preview.jpg",
+    "prompt": "Seamless tileable texture, photographed straight down from directly overhead (orthographic top-down aerial), of the real surface of Enceladus, Saturn's icy moon. Brilliant clean blue-white fresh water ice, the most reflective surface in the solar system, smooth bright snow-like ice with parallel grooved ridges and troughs (tiger-stripe fractures), shallow cracks, fine granular frost, very few craters, subtle pale blue shadows in the grooves. Mostly bright white with cool bluish tints. Absolutely no sky, no horizon, no plumes, no mountains, no distance — only the flat ground seen from directly above, evenly lit, no baked shadows, fully seamless repeating tile.",
+    "negativePrompt": "",
+    "model": "realistic-textures-3-0",
+    "modelName": "Realistic Textures 3.0",
+    "customSeed": 1117256151,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

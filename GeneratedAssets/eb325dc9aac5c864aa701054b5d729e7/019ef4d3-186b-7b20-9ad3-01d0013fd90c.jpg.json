@@ -1,0 +1,31 @@
+{
+    "asset": "eb325dc9aac5c864aa701054b5d729e7",
+    "fileName": "019ef4d3-186b-7b20-9ad3-01d0013fd90c.jpg",
+    "prompt": "View of the sky from the surface of Pluto: deep pitch-black outer space filled with countless sharp white stars and the faint Milky Way, and a very thin, faint, translucent pale-blue atmospheric haze band glowing softly only right along the horizon line. The blue haze is subtle and see-through so the dark starry universe remains clearly visible above it. No ground, no terrain, no planet, no sun disk, only sky and the thin blue horizon glow. Realistic, dark, cold, high detail.",
+    "negativePrompt": "",
+    "model": "skybox-cinematic",
+    "modelName": "Cinematic",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0,
+    "dynamicParams": {
+        "serializedData": []
+    }
+}

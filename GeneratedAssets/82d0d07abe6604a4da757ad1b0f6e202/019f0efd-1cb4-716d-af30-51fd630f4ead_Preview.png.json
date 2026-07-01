@@ -1,0 +1,12 @@
+{
+    "asset": "82d0d07abe6604a4da757ad1b0f6e202",
+    "fileName": "019f0efd-1cb4-716d-af30-51fd630f4ead_Preview.png",
+    "prompt": "Seamless tileable top-down aerial texture of the surface of Haumea, a distant Kuiper belt dwarf planet. Bright crystalline water-ice surface with a granular, fractured, cracked frost texture, predominantly brilliant white and pale grey. Scattered across it are localized patches of dark reddish-brown mineral and organic staining (the dark red spot region), plus subtle shallow craters and small bright fresh ice patches. Crisp clean reflective ice, matte to slightly glossy, evenly and uniformly lit with no baked-in directional shadows, high detail, photorealistic planetary regolith.",
+    "negativePrompt": "",
+    "model": "gemini-3.1-flash-texture",
+    "modelName": "Gemini 3.1 Nano Banana 2",
+    "customSeed": 913836562,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

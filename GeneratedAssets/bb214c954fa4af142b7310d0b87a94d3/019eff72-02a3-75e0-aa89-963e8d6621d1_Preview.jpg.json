@@ -1,0 +1,12 @@
+{
+    "asset": "bb214c954fa4af142b7310d0b87a94d3",
+    "fileName": "019eff72-02a3-75e0-aa89-963e8d6621d1_Preview.jpg",
+    "prompt": "Seamless tileable texture, photographed straight down from directly overhead (orthographic top-down aerial), of the real surface of Mimas, Saturn's heavily cratered icy moon. Pale grey-white water-ice regolith, extremely densely packed overlapping impact craters of all sizes covering the entire surface edge to edge, soft rounded crater rims, fine dusty grey ice, subtle shadows inside craters, muted monochrome grey and off-white tones. Absolutely no sky, no horizon, no planet, no rings, no mountains, no distance — only the flat ground seen from directly above, evenly lit, no baked shadows, fully seamless repeating tile.",
+    "negativePrompt": "",
+    "model": "realistic-textures-3-0",
+    "modelName": "Realistic Textures 3.0",
+    "customSeed": 1798455247,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

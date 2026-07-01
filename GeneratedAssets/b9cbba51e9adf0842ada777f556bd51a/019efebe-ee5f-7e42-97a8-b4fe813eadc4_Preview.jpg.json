@@ -1,0 +1,12 @@
+{
+    "asset": "b9cbba51e9adf0842ada777f556bd51a",
+    "fileName": "019efebe-ee5f-7e42-97a8-b4fe813eadc4_Preview.jpg",
+    "prompt": "Seamless tileable texture, top-down overhead aerial view, of the surface of Iapetus, Saturn's icy moon. Heavily cratered ground: pale grey-white water ice on raised areas and crater rims, with sooty matte charcoal-black and dark grey-brown dust coating settled in the low areas, crater floors and crevices. Strictly cold monochrome palette: only white, grey, charcoal black, and dark neutral brown. Absolutely NO orange, NO red, NO warm colors, NO glow. Dusty, matte, no shine. Numerous overlapping impact craters. No sky, no horizon, no distance, evenly lit, no baked shadows, fully seamless repeating tile.",
+    "negativePrompt": "",
+    "model": "realistic-textures-3-0",
+    "modelName": "Realistic Textures 3.0",
+    "customSeed": 80434633,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

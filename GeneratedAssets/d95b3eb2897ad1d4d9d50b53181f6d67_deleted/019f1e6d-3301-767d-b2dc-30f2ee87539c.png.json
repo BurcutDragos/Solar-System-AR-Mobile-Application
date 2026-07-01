@@ -1,0 +1,31 @@
+{
+    "asset": "d95b3eb2897ad1d4d9d50b53181f6d67",
+    "fileName": "019f1e6d-3301-767d-b2dc-30f2ee87539c.png",
+    "prompt": "Fully immersed deep INSIDE the upper atmosphere of the gas giant Saturn, a 360-degree view completely enveloped by smooth pale gold, cream, butterscotch and soft tan horizontal cloud bands wrapping in every direction, above and below and all around the viewer. Gentle subtle zonal banding, soft turbulent ammonia haze ribbons, layered creamy cloud decks receding into thick hazy volumetric depth. A luminous warm pale-yellow hazy cloud ceiling above glowing with soft diffuse distant sunlight; cloud layers descending into deep golden shadowed haze below. Dreamy suspended-in-gas feeling, soft golden atmospheric scattering. Absolutely NO outer space, NO black sky, NO stars, NO visible planet globe or curvature, NO horizon line, NO rings, NO ground, NO terrain, NO spacecraft. Pure interior of a gas giant cloudscape, photoreal NASA Cassini aesthetic, cinematic, high dynamic range, smooth gradients.",
+    "negativePrompt": "",
+    "model": "skybox-cinematic",
+    "modelName": "Cinematic",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0,
+    "dynamicParams": {
+        "serializedData": []
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "asset": "37ec13554f35bb74293d9837ae288f34",
+    "fileName": "019efade-e870-777f-b252-0f4aa3c5d291_Preview.jpg",
+    "prompt": "Seamless tileable texture, photographed straight down from directly overhead (orthographic top-down aerial), of the real icy and rocky surface of Saturn's moon Dione. Heavily cratered water-ice regolith, dusty grey-white ice, deep fractures and chasmata cracks, fine dark-grey dustings, overlapping impact craters of various sizes, bright icy crater rims. Mostly monochrome grey, greyish-white, and dark grey tones. Absolutely no sky, no horizon, no mountains, no distance — only the flat ground seen from directly above, evenly lit, no baked shadows, fully seamless repeating tile.",
+    "negativePrompt": "",
+    "model": "realistic-textures-3-0",
+    "modelName": "Realistic Textures 3.0",
+    "customSeed": 2062455102,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

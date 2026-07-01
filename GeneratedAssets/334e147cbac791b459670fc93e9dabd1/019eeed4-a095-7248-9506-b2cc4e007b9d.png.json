@@ -1,0 +1,31 @@
+{
+    "asset": "334e147cbac791b459670fc93e9dabd1",
+    "fileName": "019eeed4-a095-7248-9506-b2cc4e007b9d.png",
+    "prompt": "A highly detailed realistic NASA-style Mars exploration rover, inspired by Curiosity and Perseverance rovers. Six metallic mesh wheels with deep treads, rocker-bogie suspension arms, a flat boxy main chassis body wrapped in gold foil thermal insulation, a tall vertical camera mast with stereo navigation cameras (head) on top, a robotic sampling arm folded on the front, white and silver panels, antenna dishes. Full vehicle shown in a clean 3/4 front perspective view, complete and centered, isolated on a plain neutral light grey studio background, even soft studio lighting, photorealistic, high detail, product render style.",
+    "negativePrompt": "",
+    "model": "gemini-3.0-pro",
+    "modelName": "Gemini 3.0 Pro",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0,
+    "dynamicParams": {
+        "serializedData": []
+    }
+}

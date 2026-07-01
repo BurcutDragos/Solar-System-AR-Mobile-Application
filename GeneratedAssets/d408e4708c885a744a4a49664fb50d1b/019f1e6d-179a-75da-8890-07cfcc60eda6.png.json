@@ -1,0 +1,31 @@
+{
+    "asset": "d408e4708c885a744a4a49664fb50d1b",
+    "fileName": "019f1e6d-179a-75da-8890-07cfcc60eda6.png",
+    "prompt": "Fully immersed deep INSIDE the atmosphere of the ice giant Neptune, a 360-degree view completely enveloped by deep vivid azure and cobalt blue cloud layers in every direction, above and below and all around the viewer, streaked with wispy high white methane cirrus clouds and dynamic wind streaks. Dramatic swirling storm bands and turbulent eddies receding into thick hazy volumetric depth, a brighter luminous blue cloud ceiling above and darker deep-blue shadowed haze below. Cold diffuse blue light, energetic suspended-in-gas feeling, soft blue atmospheric scattering. Absolutely NO outer space, NO black sky, NO stars, NO visible planet globe or curvature, NO horizon line, NO rings, NO ground, NO terrain, NO spacecraft. Pure interior of an ice giant cloudscape, photoreal NASA Voyager aesthetic, cinematic, high dynamic range, smooth gradients.",
+    "negativePrompt": "",
+    "model": "skybox-cinematic",
+    "modelName": "Cinematic",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0,
+    "dynamicParams": {
+        "serializedData": []
+    }
+}

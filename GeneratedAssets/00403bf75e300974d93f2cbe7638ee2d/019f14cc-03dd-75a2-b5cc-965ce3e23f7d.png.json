@@ -1,0 +1,31 @@
+{
+    "asset": "00403bf75e300974d93f2cbe7638ee2d",
+    "fileName": "019f14cc-03dd-75a2-b5cc-965ce3e23f7d.png",
+    "prompt": "Fully immersed deep INSIDE the dense atmosphere of the gas giant Jupiter, a 360-degree view completely enveloped by swirling cloud bands in every direction. Endless horizontal zonal cloud belts of creamy white, pale gold, ochre, rust-orange and deep brown wrapping all around the viewer, above and below and on all sides. Towering walls and canyons of turbulent ammonia clouds, churning storm ribbons and eddies receding into thick hazy volumetric depth. Above is a luminous warm hazy cloud ceiling glowing with diffuse sunlight; below the cloud decks descend into deep murky shadowed haze. Soft golden atmospheric scattering, dense fog, dreamlike suspended-in-gas feeling. Absolutely NO outer space, NO black sky, NO stars, NO visible planet globe or curvature, NO horizon line, NO Great Red Spot in the distance, NO ground, NO terrain, NO mountains, NO surface. Pure interior of a gas giant cloudscape, photoreal NASA Juno aesthetic, cinematic, high dynamic range, smooth gradients.",
+    "negativePrompt": "",
+    "model": "skybox-cinematic",
+    "modelName": "Cinematic",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0,
+    "dynamicParams": {
+        "serializedData": []
+    }
+}

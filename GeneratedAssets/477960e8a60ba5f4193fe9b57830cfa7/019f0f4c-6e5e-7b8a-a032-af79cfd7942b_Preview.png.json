@@ -1,0 +1,12 @@
+{
+    "asset": "477960e8a60ba5f4193fe9b57830cfa7",
+    "fileName": "019f0f4c-6e5e-7b8a-a032-af79cfd7942b_Preview.png",
+    "prompt": "Seamless tileable top-down aerial texture of the surface of Quaoar, a distant Kuiper belt dwarf planet. Muted dusty rose and mauve-brown crystalline water-ice and methane frost regolith. Soft desaturated pinkish-tan and dusky maroon tones with grey-brown mottled patches, subtle darker stains, scattered shallow impact craters and faint fractures. Dusty, matte, slightly powdery frosty surface, evenly and uniformly lit with no baked-in directional shadows, high detail, photorealistic planetary regolith.",
+    "negativePrompt": "",
+    "model": "gemini-3.1-flash-texture",
+    "modelName": "Gemini 3.1 Nano Banana 2",
+    "customSeed": 839567533,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

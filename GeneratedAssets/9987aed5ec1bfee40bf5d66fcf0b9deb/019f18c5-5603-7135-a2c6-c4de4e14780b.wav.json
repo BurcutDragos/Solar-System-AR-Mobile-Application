@@ -1,0 +1,15 @@
+{
+    "asset": "9987aed5ec1bfee40bf5d66fcf0b9deb",
+    "fileName": "019f18c5-5603-7135-a2c6-c4de4e14780b.wav",
+    "prompt": "Futuristic spaceship engine hum, continuous deep steady thrusters, low rumbling drone with a smooth high-tech electric whine layered on top, powerful sci-fi propulsion idle, constant and seamless, no music, no voice",
+    "negativePrompt": "",
+    "model": "elevenlabs-sound-effects-v2",
+    "modelName": "ElevenLabs Sound Effects V2",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "duration": 10.0,
+    "autoTrim": false,
+    "hasReference": false,
+    "voice": ""
+}

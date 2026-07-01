@@ -1,0 +1,23 @@
+{
+    "asset": "9216abb175837094e85b9b94d28576ce",
+    "fileName": "019eeed6-f9be-7488-8f78-29cb53d93dbf.glb",
+    "prompt": "A highly detailed realistic NASA-style Mars exploration rover with six treaded wheels, rocker-bogie suspension, gold foil thermal chassis, tall camera mast, robotic sampling arm, and antenna dish. Photorealistic, metallic and gold materials.",
+    "negativePrompt": "",
+    "model": "model3d-tripo-p1",
+    "modelName": "Tripo P1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "promptImageReferenceGuid": "334e147cbac791b459670fc93e9dabd1",
+    "modelReferenceGuid": "",
+    "multiviewFrontGuid": "",
+    "multiviewBackGuid": "",
+    "multiviewLeftGuid": "",
+    "multiviewRightGuid": "",
+    "multiviewTopGuid": "",
+    "multiviewBottomGuid": "",
+    "multiviewLeftFrontGuid": "",
+    "multiviewRightFrontGuid": "",
+    "faceLimit": -1
+}

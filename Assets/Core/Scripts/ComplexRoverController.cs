@@ -33,10 +33,12 @@ public class ComplexRoverController : MonoBehaviour
     private Rigidbody rb;
     private Vector2 moveInput;
     private InputAction moveAction;
+    private bool inputSimulated;
 
     public void SimulateInput(Vector2 input)
     {
         moveInput = input;
+        inputSimulated = true;
     }
     
     private float[] currentCompressions = new float[6];
@@ -93,7 +95,10 @@ public class ComplexRoverController : MonoBehaviour
 
     void Update()
     {
-        if (Application.isPlaying && moveAction != null && moveInput == Vector2.zero) 
+        // Continuously read live input so WASD/arrow keys (editor) and the
+        // on-screen joystick (Android) both drive the rover every frame.
+        // SimulateInput() (used only by automated tests) overrides this path.
+        if (Application.isPlaying && !inputSimulated && moveAction != null)
             moveInput = moveAction.ReadValue<Vector2>();
         
         AnimateVisuals();

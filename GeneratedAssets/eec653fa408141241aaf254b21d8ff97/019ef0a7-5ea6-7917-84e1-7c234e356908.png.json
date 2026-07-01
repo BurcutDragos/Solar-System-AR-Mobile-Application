@@ -1,0 +1,31 @@
+{
+    "asset": "eec653fa408141241aaf254b21d8ff97",
+    "fileName": "019ef0a7-5ea6-7917-84e1-7c234e356908.png",
+    "prompt": "A NASA-style Mars exploration rover CHASSIS AND BODY ONLY, with absolutely NO wheels and NO suspension arms. Gold-foil thermal-insulated boxy main body, flat instrument deck on top, a tall vertical camera mast with stereo navigation cameras (the head), a folded robotic sampling arm at the front, white and silver side panels, a small antenna dish. The body sits on a clean simple stand with NO wheels and NO legs visible. Clean 3/4 front perspective view, complete and centered, isolated on a plain neutral light grey studio background, soft even studio lighting, photorealistic, high detail, product render style.",
+    "negativePrompt": "",
+    "model": "gemini-3.0-pro",
+    "modelName": "Gemini 3.0 Pro",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0,
+    "dynamicParams": {
+        "serializedData": []
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "asset": "25aeae70952f33741ade522cf18ab313",
+    "fileName": "019efacb-1d74-79d7-b02e-a7664fcdc6c6_Preview.jpg",
+    "prompt": "Seamless tileable texture, photographed straight down from directly overhead (orthographic top-down aerial), of the real surface of Callisto, a moon of Jupiter. Extremely densely cratered dark grey-brown dirty-ice regolith, the most heavily cratered surface in the solar system, countless overlapping impact craters of every size packed edge to edge, brighter whitish-grey icy crater rims and bright ice patches contrasting with dark dusty material in between. Absolutely no sky, no horizon, no planet, no mountains, no distance — only the flat ground seen from directly above, evenly lit, no baked shadows, fully seamless repeating tile.",
+    "negativePrompt": "",
+    "model": "realistic-textures-3-0",
+    "modelName": "Realistic Textures 3.0",
+    "customSeed": 1292834307,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

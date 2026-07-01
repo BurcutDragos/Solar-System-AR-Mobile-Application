@@ -1,0 +1,12 @@
+{
+    "asset": "9c7df5ea9566e2d4f890e3e6f3005631",
+    "fileName": "019ef4eb-f2fa-7074-a854-b75433bf109b_Preview.jpg",
+    "prompt": "Seamless tileable top-down texture of the real surface of Mercury: grey heavily cratered regolith, countless overlapping impact craters of varying sizes, fine dusty grey soil, rocky rims, monochrome grey and dark-grey tones like the Moon and Mercury. Photorealistic, evenly lit with no baked shadows, no horizon, top-down orthographic ground detail, seamless repeating.",
+    "negativePrompt": "",
+    "model": "realistic-textures-3-0",
+    "modelName": "Realistic Textures 3.0",
+    "customSeed": 842102176,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

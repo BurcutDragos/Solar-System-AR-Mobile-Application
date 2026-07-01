@@ -1,0 +1,12 @@
+{
+    "asset": "899be96cc489bb3469d5e11726bbff33",
+    "fileName": "019f002b-7cd7-77ff-bcfa-03f4f2e4e0bb_Preview.png",
+    "prompt": "Seamless tileable top-down aerial texture of the surface of Oberon, the outermost large moon of Uranus. Ancient, heavily cratered grey water-ice and rock regolith, densely packed overlapping impact craters of many sizes. Predominantly neutral grey, with scattered larger craters whose dark floors show patches of dark reddish-brown material (organic tholin deposits) and bright white ejecta rays around fresher craters. Dusty, matte, powdery airless surface, evenly and uniformly lit with no baked-in directional shadows, high detail, photorealistic planetary regolith.",
+    "negativePrompt": "",
+    "model": "gemini-3.1-flash-texture",
+    "modelName": "Gemini 3.1 Nano Banana 2",
+    "customSeed": 981572692,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

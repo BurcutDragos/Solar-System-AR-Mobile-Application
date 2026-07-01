@@ -1,0 +1,12 @@
+{
+    "asset": "2397de1619085094883d3e5f3b6038e0",
+    "fileName": "019efe3e-66c9-702a-9699-33235240e946_Preview.jpg",
+    "prompt": "Seamless tileable texture, photographed straight down from directly overhead (orthographic top-down aerial), of the real surface of Europa, Jupiter's icy moon. Jumbled chaotic blocks of dirty white-grey water ice, broken angular ice rafts and rubble, criss-crossing reddish-brown and rusty-tan lineae cracks and stains filling the fractures between pale icy plates, fine frost, very smooth few craters. Mix of pale grey-white ice and rusty reddish-brown stained cracks. Absolutely no sky, no horizon, no planet, no mountains, no distance — only the flat ground seen from directly above, evenly lit, no baked shadows, fully seamless repeating tile.",
+    "negativePrompt": "",
+    "model": "realistic-textures-3-0",
+    "modelName": "Realistic Textures 3.0",
+    "customSeed": 801061204,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

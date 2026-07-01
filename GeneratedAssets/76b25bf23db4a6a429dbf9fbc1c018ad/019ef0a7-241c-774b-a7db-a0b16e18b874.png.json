@@ -1,0 +1,31 @@
+{
+    "asset": "76b25bf23db4a6a429dbf9fbc1c018ad",
+    "fileName": "019ef0a7-241c-774b-a7db-a0b16e18b874.png",
+    "prompt": "A single NASA Mars rover wheel, isolated. Cylindrical machined aluminum drum wheel with deep zig-zag chevron treads (grousers) exactly like the Curiosity and Perseverance rover wheels, brushed metallic silver, with a visible curved-spoke flexure hub in the center. Shown at a 3/4 side angle so both the cylindrical treaded surface and the central hub are clearly visible. Isolated on a plain neutral light grey studio background, soft even studio lighting, photorealistic, high detail, product render style.",
+    "negativePrompt": "",
+    "model": "gemini-3.0-pro",
+    "modelName": "Gemini 3.0 Pro",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0,
+    "dynamicParams": {
+        "serializedData": []
+    }
+}

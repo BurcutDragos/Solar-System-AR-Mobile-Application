@@ -102,6 +102,6 @@ AssetOrigin:
   serializedVersion: 1
   productId: 73167
   packageName: Star Sparrow Modular Spaceship
-  packageVersion: 4.3
-  assetPath: Assets/StarSparrow/Meshes/BonusContent/StarSparrow_1_LP_Red.fbx
-  uploadId: 880686
+  packageVersion: 5.0
+  assetPath: Assets/Imported Packages/StarSparrow/Meshes/BonusContent/StarSparrow_1_LP_Red.fbx
+  uploadId: 939704

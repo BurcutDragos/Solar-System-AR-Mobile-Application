@@ -1,0 +1,31 @@
+{
+    "asset": "0838d8da9d00c034e87cb027dae4185b",
+    "fileName": "019f1e6c-faa4-7331-b9fc-04213933397c.png",
+    "prompt": "Fully immersed deep INSIDE the atmosphere of the ice giant Uranus, a 360-degree view completely enveloped by smooth pale cyan, aquamarine, soft turquoise and pale mint haze in every direction, above and below and all around the viewer. Almost featureless serene methane cloud layers, extremely smooth and subtle faint banding, cold diffuse pale blue-green light, thick soft luminous fog and deep atmospheric depth fading gently to shadow below. Calm dreamlike suspended-in-gas feeling, soft cyan atmospheric scattering. Absolutely NO outer space, NO black sky, NO stars, NO visible planet globe or curvature, NO horizon line, NO rings, NO ground, NO terrain, NO spacecraft. Pure interior of an ice giant cloudscape, photoreal, cinematic, high dynamic range, smooth gradients.",
+    "negativePrompt": "",
+    "model": "skybox-cinematic",
+    "modelName": "Cinematic",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0,
+    "dynamicParams": {
+        "serializedData": []
+    }
+}

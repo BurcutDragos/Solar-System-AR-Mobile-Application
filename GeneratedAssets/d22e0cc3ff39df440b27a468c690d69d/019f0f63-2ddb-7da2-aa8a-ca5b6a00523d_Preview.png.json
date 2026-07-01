@@ -1,0 +1,12 @@
+{
+    "asset": "d22e0cc3ff39df440b27a468c690d69d",
+    "fileName": "019f0f63-2ddb-7da2-aa8a-ca5b6a00523d_Preview.png",
+    "prompt": "Seamless tileable top-down aerial texture of the surface of Sedna, one of the reddest objects in the solar system, a distant inner Oort cloud dwarf planet. Deep crimson and brick-red tholin-rich regolith over methane and nitrogen ice. Mottled rose-red and rusty crimson tones with darker maroon cracks and branching veins, lighter pinkish-red frost patches, scattered shallow impact craters. Dusty, matte, powdery airless surface, evenly and uniformly lit with no baked-in directional shadows, high detail, photorealistic planetary regolith.",
+    "negativePrompt": "",
+    "model": "gemini-3.1-flash-texture",
+    "modelName": "Gemini 3.1 Nano Banana 2",
+    "customSeed": 140228104,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

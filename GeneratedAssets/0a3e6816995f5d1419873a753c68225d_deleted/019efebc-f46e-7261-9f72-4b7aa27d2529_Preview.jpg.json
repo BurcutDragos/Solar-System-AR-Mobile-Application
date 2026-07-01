@@ -1,0 +1,12 @@
+{
+    "asset": "0a3e6816995f5d1419873a753c68225d",
+    "fileName": "019efebc-f46e-7261-9f72-4b7aa27d2529_Preview.jpg",
+    "prompt": "Seamless tileable texture, photographed straight down from directly overhead (orthographic top-down aerial), of the real two-tone surface of Iapetus, Saturn's moon. Heavily cratered icy regolith with dramatic contrast: patches of very dark reddish-black dusty coating (Cassini Regio material) draped over and inside craters, mixed with brighter grey-white ice on rims and ridges, countless overlapping impact craters of all sizes. Stark contrast between sooty dark-brown black areas and pale icy areas. Absolutely no sky, no horizon, no mountains, no distance — only the flat ground seen from directly above, evenly lit, no baked shadows, fully seamless repeating tile.",
+    "negativePrompt": "",
+    "model": "realistic-textures-3-0",
+    "modelName": "Realistic Textures 3.0",
+    "customSeed": 886834988,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

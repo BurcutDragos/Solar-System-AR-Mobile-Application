@@ -1,0 +1,12 @@
+{
+    "asset": "7f12dec575f1a264fa2f7c597a1ae86f",
+    "fileName": "019ef4c8-f115-71a0-a1c2-544226be9af1_Preview.jpg",
+    "prompt": "Seamless tileable top-down texture of the real surface of Pluto: pale cream and off-white nitrogen-ice plains like Sputnik Planitia, with a subtle polygonal cellular pattern, gentle frost and ice granularity, and faint pale reddish-tan tholin staining in shallow grooves. Soft, low-contrast, icy, photorealistic, evenly lit, no shadows, no horizon, top-down orthographic ground detail.",
+    "negativePrompt": "",
+    "model": "realistic-textures-3-0",
+    "modelName": "Realistic Textures 3.0",
+    "customSeed": 1596417161,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

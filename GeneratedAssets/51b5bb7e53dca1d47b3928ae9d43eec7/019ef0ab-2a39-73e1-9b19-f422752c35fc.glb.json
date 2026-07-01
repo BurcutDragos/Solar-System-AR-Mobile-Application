@@ -1,0 +1,23 @@
+{
+    "asset": "51b5bb7e53dca1d47b3928ae9d43eec7",
+    "fileName": "019ef0ab-2a39-73e1-9b19-f422752c35fc.glb",
+    "prompt": "A NASA Mars rover chassis and body, gold-foil thermal-insulated boxy body, flat instrument deck, tall camera mast with stereo cameras, antenna dish, folded robotic arm, white side panels. No wheels, no suspension arms.",
+    "negativePrompt": "",
+    "model": "model3d-tripo-p1",
+    "modelName": "Tripo P1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "promptImageReferenceGuid": "eec653fa408141241aaf254b21d8ff97",
+    "modelReferenceGuid": "",
+    "multiviewFrontGuid": "",
+    "multiviewBackGuid": "",
+    "multiviewLeftGuid": "",
+    "multiviewRightGuid": "",
+    "multiviewTopGuid": "",
+    "multiviewBottomGuid": "",
+    "multiviewLeftFrontGuid": "",
+    "multiviewRightFrontGuid": "",
+    "faceLimit": -1
+}

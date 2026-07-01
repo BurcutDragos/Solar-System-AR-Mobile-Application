@@ -1,0 +1,12 @@
+{
+    "asset": "b0921794f93b1ef4aa4f901913dfff15",
+    "fileName": "019f0ecb-f541-7c11-a9fd-3c49fe107c62_Preview.png",
+    "prompt": "Seamless tileable top-down aerial texture of the surface of Ceres, the dwarf planet in the asteroid belt. Dark muted grey carbonaceous clay-rich regolith, heavily cratered with densely packed overlapping impact craters of all sizes. Predominantly neutral dark grey with subtle faint brownish tint. Scattered small patches of bright white carbonate salt deposits (faculae) on a few crater floors, plus subtle linear fractures and grooves. Dusty, matte, powdery airless surface, evenly and uniformly lit with no baked-in directional shadows, high detail, photorealistic planetary regolith.",
+    "negativePrompt": "",
+    "model": "gemini-3.1-flash-texture",
+    "modelName": "Gemini 3.1 Nano Banana 2",
+    "customSeed": 494337527,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

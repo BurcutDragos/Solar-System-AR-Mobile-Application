@@ -1,0 +1,12 @@
+{
+    "asset": "60ebbaa2e71726b4bad60adc38eef606",
+    "fileName": "019efe5a-1a1f-7336-ab11-4631f60ca073_Preview.jpg",
+    "prompt": "Seamless tileable texture, photographed straight down from directly overhead (orthographic top-down aerial), of the real surface of Ganymede, Jupiter's largest moon. Grooved terrain of dirty grey-brown and tan water-ice regolith, alternating darker ancient cratered patches and brighter parallel grooved icy bands and ridges, numerous overlapping impact craters, dusty tan-grey soil, subtle frost. Mix of muted grey-brown and pale tan icy tones. Absolutely no sky, no horizon, no planet, no mountains, no distance — only the flat ground seen from directly above, evenly lit, no baked shadows, fully seamless repeating tile.",
+    "negativePrompt": "",
+    "model": "realistic-textures-3-0",
+    "modelName": "Realistic Textures 3.0",
+    "customSeed": 1819705108,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

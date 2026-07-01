@@ -1,0 +1,23 @@
+{
+    "asset": "d658c0d3082f7c44c937d1a809de81ae",
+    "fileName": "019ef0ab-6f93-712d-9797-fde69e783839.glb",
+    "prompt": "A single NASA Mars rover wheel, cylindrical machined aluminum drum with deep chevron grouser treads and a curved-spoke flexure hub in the center, brushed metallic silver.",
+    "negativePrompt": "",
+    "model": "model3d-tripo-p1",
+    "modelName": "Tripo P1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "promptImageReferenceGuid": "76b25bf23db4a6a429dbf9fbc1c018ad",
+    "modelReferenceGuid": "",
+    "multiviewFrontGuid": "",
+    "multiviewBackGuid": "",
+    "multiviewLeftGuid": "",
+    "multiviewRightGuid": "",
+    "multiviewTopGuid": "",
+    "multiviewBottomGuid": "",
+    "multiviewLeftFrontGuid": "",
+    "multiviewRightFrontGuid": "",
+    "faceLimit": -1
+}

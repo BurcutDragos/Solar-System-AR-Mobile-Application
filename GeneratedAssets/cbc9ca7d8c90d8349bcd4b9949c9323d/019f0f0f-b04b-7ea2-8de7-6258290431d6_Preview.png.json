@@ -1,0 +1,12 @@
+{
+    "asset": "cbc9ca7d8c90d8349bcd4b9949c9323d",
+    "fileName": "019f0f0f-b04b-7ea2-8de7-6258290431d6_Preview.png",
+    "prompt": "Seamless tileable top-down aerial texture of the surface of Ixion, a distant dark Kuiper belt dwarf planet. Dark, moderately reddish carbon and tholin-rich regolith over water ice, low albedo. Muted reddish-brown and dusky maroon tones with greyer crater interiors and subtle darker patches, scattered impact craters of varying sizes, low ridges and shallow fractures. Dusty, matte, powdery airless surface, evenly and uniformly lit with no baked-in directional shadows, high detail, photorealistic planetary regolith.",
+    "negativePrompt": "",
+    "model": "gemini-3.1-flash-texture",
+    "modelName": "Gemini 3.1 Nano Banana 2",
+    "customSeed": 1642761715,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

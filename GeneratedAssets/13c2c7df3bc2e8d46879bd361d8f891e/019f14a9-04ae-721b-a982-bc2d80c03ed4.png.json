@@ -1,0 +1,31 @@
+{
+    "asset": "13c2c7df3bc2e8d46879bd361d8f891e",
+    "fileName": "019f14a9-04ae-721b-a982-bc2d80c03ed4.png",
+    "prompt": "A single soft fluffy volumetric cloud puff, isolated on a pure flat black background. Wispy ammonia gas-giant cloud in creamy pale gold and soft orange tones, billowing rounded edges fading to translucent wisps. Diffuse soft lighting, no hard edges, photoreal atmospheric vapor, centered, no other objects. The cloud should be brightest in the center and fade smoothly to transparency at the edges.",
+    "negativePrompt": "",
+    "model": "gemini-3.1-flash",
+    "modelName": "Gemini 3.1 Nano Banana 2",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0,
+    "dynamicParams": {
+        "serializedData": []
+    }
+}

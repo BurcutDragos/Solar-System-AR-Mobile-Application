@@ -1,0 +1,31 @@
+{
+    "asset": "b786c0dabef6ddd4694d042f3126f0fe",
+    "fileName": "019f18d3-80bb-7609-8969-66eb96c9b23b.png",
+    "prompt": "A small cluster of bright icy crystal shards and sparkles, isolated on a pure flat black background. Pale cyan and white frozen ice chips and glittering crystalline fragments catching light, sharp bright highlights, brightest in the center fading to transparency at the edges. Crisp cold photoreal ice debris, centered, no other objects.",
+    "negativePrompt": "",
+    "model": "gemini-3.1-flash",
+    "modelName": "Gemini 3.1 Nano Banana 2",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0,
+    "dynamicParams": {
+        "serializedData": []
+    }
+}

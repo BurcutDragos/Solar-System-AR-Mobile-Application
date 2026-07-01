@@ -1,0 +1,15 @@
+{
+    "asset": "6e613be5d3e28d6459b4a37295ebdcbb",
+    "fileName": "019f18c5-5607-7b8e-b2d8-45f6eed5f163.wav",
+    "prompt": "Howling alien atmospheric wind on the gas giant Jupiter, deep turbulent storm wind gusts blowing through thick clouds, low eerie roaring ambient air movement, vast and ominous, continuous seamless loop, no music, no voice",
+    "negativePrompt": "",
+    "model": "elevenlabs-sound-effects-v2",
+    "modelName": "ElevenLabs Sound Effects V2",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "duration": 10.0,
+    "autoTrim": false,
+    "hasReference": false,
+    "voice": ""
+}

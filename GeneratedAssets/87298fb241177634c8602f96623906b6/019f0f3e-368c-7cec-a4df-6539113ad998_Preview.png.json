@@ -1,0 +1,12 @@
+{
+    "asset": "87298fb241177634c8602f96623906b6",
+    "fileName": "019f0f3e-368c-7cec-a4df-6539113ad998_Preview.png",
+    "prompt": "Seamless tileable top-down aerial texture of the surface of Orcus, a Kuiper belt dwarf planet ('anti-Pluto'). Cool blue-grey water-ice and ammonia rich regolith, muted slate-grey with subtle bluish tints. Mottled darker grey patches, faint linear fractures, ridges and grooves possibly from cryovolcanic resurfacing, scattered shallow impact craters. Frosty, matte, slightly powdery icy surface, evenly and uniformly lit with no baked-in directional shadows, high detail, photorealistic planetary regolith.",
+    "negativePrompt": "",
+    "model": "gemini-3.1-flash-texture",
+    "modelName": "Gemini 3.1 Nano Banana 2",
+    "customSeed": 932270623,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

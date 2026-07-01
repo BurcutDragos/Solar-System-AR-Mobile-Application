@@ -1,0 +1,12 @@
+{
+    "asset": "52a6fc9492d1e8543b29f2a1297a35e9",
+    "fileName": "019ef9e5-579a-731c-9bb9-44d033da0017_Preview.jpg",
+    "prompt": "Seamless tileable texture, photographed straight down from directly overhead (orthographic top-down aerial), of the real surface of the Moon. Light grey lunar regolith, fine powdery grey dust, countless small overlapping impact craters of varying sizes, scattered small rocks and pebbles, subtle rover-style tracks absent, monochrome light grey and medium grey tones like the Apollo landing sites. Absolutely no sky, no horizon, no Earth, no mountains, no distance — only the flat ground seen from directly above, evenly lit, no baked shadows, fully seamless repeating tile.",
+    "negativePrompt": "",
+    "model": "realistic-textures-3-0",
+    "modelName": "Realistic Textures 3.0",
+    "customSeed": 360802630,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

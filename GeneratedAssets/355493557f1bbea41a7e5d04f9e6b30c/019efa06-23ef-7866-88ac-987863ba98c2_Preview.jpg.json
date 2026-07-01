@@ -1,0 +1,12 @@
+{
+    "asset": "355493557f1bbea41a7e5d04f9e6b30c",
+    "fileName": "019efa06-23ef-7866-88ac-987863ba98c2_Preview.jpg",
+    "prompt": "Seamless tileable texture, photographed straight down from directly overhead (orthographic top-down aerial), of the real surface of Charon, Pluto's moon. Cold grey icy regolith with subtle muted reddish-brown and tan tholin staining patches, numerous overlapping impact craters of varying sizes, faint ridges and shallow grooves, scattered small rocks. Mostly desaturated grey with delicate brownish tints. Absolutely no sky, no horizon, no planet, no mountains, no distance — only the flat ground seen from directly above, evenly lit, no baked shadows, fully seamless repeating tile.",
+    "negativePrompt": "",
+    "model": "realistic-textures-3-0",
+    "modelName": "Realistic Textures 3.0",
+    "customSeed": 812552584,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

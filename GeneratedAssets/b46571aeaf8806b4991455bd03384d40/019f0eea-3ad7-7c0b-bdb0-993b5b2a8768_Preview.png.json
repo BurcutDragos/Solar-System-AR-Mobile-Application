@@ -1,0 +1,12 @@
+{
+    "asset": "b46571aeaf8806b4991455bd03384d40",
+    "fileName": "019f0eea-3ad7-7c0b-bdb0-993b5b2a8768_Preview.png",
+    "prompt": "Seamless tileable top-down aerial texture of the surface of Gonggong, a distant red Kuiper belt dwarf planet. Dark reddish-brown tholin-coated water-ice regolith, one of the reddest surfaces in the solar system. Mottled rusty maroon and deep red-brown tones with lighter dusty pinkish-tan patches, dark reddish-black organic deposits, subtle fractures and scattered shallow impact craters. Dusty, matte, powdery airless surface, evenly and uniformly lit with no baked-in directional shadows, high detail, photorealistic planetary regolith.",
+    "negativePrompt": "",
+    "model": "gemini-3.1-flash-texture",
+    "modelName": "Gemini 3.1 Nano Banana 2",
+    "customSeed": 2126892294,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

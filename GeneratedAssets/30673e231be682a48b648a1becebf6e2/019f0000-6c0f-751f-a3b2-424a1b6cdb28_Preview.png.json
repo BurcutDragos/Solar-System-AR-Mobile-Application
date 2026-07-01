@@ -1,0 +1,12 @@
+{
+    "asset": "30673e231be682a48b648a1becebf6e2",
+    "fileName": "019f0000-6c0f-751f-a3b2-424a1b6cdb28_Preview.png",
+    "prompt": "Seamless tileable top-down aerial texture of the surface of Miranda, the moon of Uranus. Heavily fractured grey water-ice regolith with chaotic terrain: sets of parallel grooves and ridges, intersecting tectonic fault lines and scarps, scattered impact craters of varying sizes. Predominantly pale neutral grey with subtle faint brownish-tan tholin staining in places. Dusty, matte, powdery airless surface, evenly and uniformly lit with no baked-in directional shadows, high detail, photorealistic planetary regolith.",
+    "negativePrompt": "",
+    "model": "gemini-3.1-flash-texture",
+    "modelName": "Gemini 3.1 Nano Banana 2",
+    "customSeed": 1515318383,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

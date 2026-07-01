@@ -1,0 +1,12 @@
+{
+    "asset": "8ffe6c610a8942e49ab4241f86706fed",
+    "fileName": "019f0539-d8a6-7188-87f5-a5f8814a6c52_Preview.png",
+    "prompt": "Seamless tileable top-down aerial texture of the surface of Triton, the largest moon of Neptune. Famous pinkish-tan and pale peach 'cantaloupe terrain': dimpled, pitted, wrinkled nitrogen and methane ice with rounded depressions, criss-crossing ridges and grooves forming a melon-skin pattern. Predominantly pale pink-tan and creamy white frost tones with subtle salmon and faint bluish-grey hints, scattered dark reddish-brown nitrogen geyser streaks and patches. Frosty, matte, slightly powdery icy surface, evenly and uniformly lit with no baked-in directional shadows, high detail, photorealistic planetary regolith.",
+    "negativePrompt": "",
+    "model": "gemini-3.1-flash-texture",
+    "modelName": "Gemini 3.1 Nano Banana 2",
+    "customSeed": 1752077253,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

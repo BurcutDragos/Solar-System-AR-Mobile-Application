@@ -1,0 +1,12 @@
+{
+    "asset": "05fbaec85a4ae204cad308b1fb3b15a5",
+    "fileName": "019f0f7b-1211-7105-ae20-62799e5ad727_Preview.png",
+    "prompt": "Seamless tileable top-down aerial texture of the surface of Varuna, a reddish Kuiper belt dwarf planet. Warm tan and khaki-beige tholin-coated water-ice regolith with a subtle reddish-brown tint. Heavily cratered terrain with darker olive-brown mottled patches and lighter sandy-beige areas, scattered impact craters with soft rims, subtle fractures. Dusty matte powdery airless surface, evenly and uniformly lit with no baked-in directional shadows, high detail, photorealistic planetary regolith.",
+    "negativePrompt": "",
+    "model": "gemini-3.1-flash-texture",
+    "modelName": "Gemini 3.1 Nano Banana 2",
+    "customSeed": 896898079,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

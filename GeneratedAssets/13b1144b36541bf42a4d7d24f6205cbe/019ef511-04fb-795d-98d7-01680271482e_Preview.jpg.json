@@ -1,0 +1,12 @@
+{
+    "asset": "13b1144b36541bf42a4d7d24f6205cbe",
+    "fileName": "019ef511-04fb-795d-98d7-01680271482e_Preview.jpg",
+    "prompt": "Seamless tileable texture, photographed straight down from directly overhead (orthographic top-down aerial), of the rocky ground surface of planet Venus. Flat fractured cracked basaltic volcanic rock slabs and plates, angular broken stones, dusty rusty orange-brown and ochre-tan regolith filling the cracks between rocks, warm orange volcanic basalt tones. Absolutely no sky, no horizon, no mountains, no distance — only the flat ground seen from above, evenly lit, no shadows, fully seamless repeating tile.",
+    "negativePrompt": "",
+    "model": "realistic-textures-3-0",
+    "modelName": "Realistic Textures 3.0",
+    "customSeed": 1166361278,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

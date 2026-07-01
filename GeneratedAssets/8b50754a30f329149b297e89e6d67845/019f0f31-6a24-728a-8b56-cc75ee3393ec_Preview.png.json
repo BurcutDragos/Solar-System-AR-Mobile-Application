@@ -1,0 +1,12 @@
+{
+    "asset": "8b50754a30f329149b297e89e6d67845",
+    "fileName": "019f0f31-6a24-728a-8b56-cc75ee3393ec_Preview.png",
+    "prompt": "Seamless tileable top-down aerial texture of the surface of Makemake, a bright reddish Kuiper belt dwarf planet. Reddish-brown methane and ethane frost coated regolith with tholins. Warm salmon, rust and reddish-tan tones with lighter cream and pale tan frost patches, darker maroon mottled regions, scattered shallow impact craters and subtle fractures. Frosty, matte, powdery icy surface, evenly and uniformly lit with no baked-in directional shadows, high detail, photorealistic planetary regolith.",
+    "negativePrompt": "",
+    "model": "gemini-3.1-flash-texture",
+    "modelName": "Gemini 3.1 Nano Banana 2",
+    "customSeed": 995569569,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

@@ -1,0 +1,12 @@
+{
+    "asset": "13b7b236faa1d8148ad2fd0b3c144d71",
+    "fileName": "019f04f3-b98b-7aed-b019-ff0b0e95dc51_Preview.png",
+    "prompt": "Seamless tileable top-down aerial texture of the surface of Tethys, the icy moon of Saturn. Ancient, very heavily cratered clean water-ice regolith, densely packed overlapping impact craters of all sizes. Predominantly bright neutral grey-white. Crossed by a long branching system of deep parallel canyons and graben troughs (like Ithaca Chasma) cutting across the terrain, plus subtle bright fresh crater rims. Dusty, matte, powdery airless icy surface, evenly and uniformly lit with no baked-in directional shadows, high detail, photorealistic planetary regolith.",
+    "negativePrompt": "",
+    "model": "gemini-3.1-flash-texture",
+    "modelName": "Gemini 3.1 Nano Banana 2",
+    "customSeed": 1571711177,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

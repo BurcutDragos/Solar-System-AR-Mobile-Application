@@ -1,0 +1,12 @@
+{
+    "asset": "9ff838b8559efae4f9558c57f85e7d02",
+    "fileName": "019f0f57-e3a8-771d-be80-b9e565631403_Preview.png",
+    "prompt": "Seamless tileable top-down aerial texture of the surface of Salacia, a dark trans-Neptunian dwarf planet. Muted dusty mauve-grey low-albedo regolith with a subtle rosy-brown tint. Criss-crossing networks of bright white frosty fractures and veins, scattered shallow impact craters, darker brownish mottled patches and worn ridges. Dusty, matte, powdery airless surface, evenly and uniformly lit with no baked-in directional shadows, high detail, photorealistic planetary regolith.",
+    "negativePrompt": "",
+    "model": "gemini-3.1-flash-texture",
+    "modelName": "Gemini 3.1 Nano Banana 2",
+    "customSeed": 1828152260,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

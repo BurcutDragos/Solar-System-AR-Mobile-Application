@@ -1,0 +1,15 @@
+{
+    "asset": "4e0020375e5cde94a8610b08f8027b5b",
+    "fileName": "019f18d3-77ee-78e6-afd4-bcf1a7c0a59c.wav",
+    "prompt": "A six-wheeled exploration rover driving slowly, continuous electric servo motor whirr combined with the low mechanical hum of wheels rolling and crunching over gritty regolith, steady mechanical driving loop, no music, no voice, seamless",
+    "negativePrompt": "",
+    "model": "elevenlabs-sound-effects-v2",
+    "modelName": "ElevenLabs Sound Effects V2",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "duration": 8.0,
+    "autoTrim": false,
+    "hasReference": false,
+    "voice": ""
+}

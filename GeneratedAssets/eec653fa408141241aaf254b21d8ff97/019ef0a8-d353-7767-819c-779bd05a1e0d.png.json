@@ -1,0 +1,41 @@
+{
+    "asset": "eec653fa408141241aaf254b21d8ff97",
+    "fileName": "019ef0a8-d353-7767-819c-779bd05a1e0d.png",
+    "prompt": "Completely remove the metal/chrome display stand and the rectangular frame underneath the rover body. Keep the gold-foil rover body, camera mast, antenna dish, robotic arm and all panels EXACTLY the same. The underside of the body should be a clean flat closed panel. The body should appear to float, with no stand, no legs, and no wheels. Plain neutral light grey studio background, photorealistic.",
+    "negativePrompt": "",
+    "model": "gemini-3.0-pro",
+    "modelName": "Gemini 3.0 Pro",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": [
+            {
+                "doodleReferenceType": 7,
+                "doodle": [],
+                "label": "Image",
+                "strength": 0.25,
+                "invertStrength": false,
+                "assetReferenceGuid": "eec653fa408141241aaf254b21d8ff97",
+                "unlabeledIndex": -1
+            }
+        ]
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0,
+    "dynamicParams": {
+        "serializedData": []
+    }
+}

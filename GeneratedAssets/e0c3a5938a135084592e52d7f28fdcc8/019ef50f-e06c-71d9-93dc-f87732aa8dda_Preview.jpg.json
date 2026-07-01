@@ -1,0 +1,12 @@
+{
+    "asset": "e0c3a5938a135084592e52d7f28fdcc8",
+    "fileName": "019ef50f-e06c-71d9-93dc-f87732aa8dda_Preview.jpg",
+    "prompt": "Seamless tileable top-down texture of the real surface of Venus: orange-brown basaltic volcanic rock plain, flat fractured cracked rock slabs and plates (like the Venera lander photos), dusty rusty-tan and ochre regolith between the rocks, warm orange and yellow-brown tones, scattered angular volcanic stones. Photorealistic, evenly lit with no baked shadows, no horizon, top-down orthographic ground detail, seamless repeating.",
+    "negativePrompt": "",
+    "model": "realistic-textures-3-0",
+    "modelName": "Realistic Textures 3.0",
+    "customSeed": 1398989190,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

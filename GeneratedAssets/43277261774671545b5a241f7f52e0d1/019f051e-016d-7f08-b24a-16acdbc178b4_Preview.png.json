@@ -1,0 +1,12 @@
+{
+    "asset": "43277261774671545b5a241f7f52e0d1",
+    "fileName": "019f051e-016d-7f08-b24a-16acdbc178b4_Preview.png",
+    "prompt": "Seamless tileable top-down aerial texture of the surface of Titan, the largest moon of Saturn. Orange-tan and brownish hydrocarbon-coated water-ice ground, dim and hazy. Mix of pale orange-tan icy bedrock plains scattered with rounded smooth pebbles and cobbles (like the Huygens landing site), darker brown patches of hydrocarbon sand, and winding drainage channels carved by liquid methane. Predominantly muted amber-orange and tan tones with dark brown organic deposits. Damp, matte surface under thick orange haze, evenly and uniformly lit with no baked-in directional shadows, high detail, photorealistic planetary regolith.",
+    "negativePrompt": "",
+    "model": "gemini-3.1-flash-texture",
+    "modelName": "Gemini 3.1 Nano Banana 2",
+    "customSeed": 1201333610,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

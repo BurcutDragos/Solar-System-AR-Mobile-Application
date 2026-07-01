@@ -1,0 +1,31 @@
+{
+    "asset": "f0b5a2bffe4f2d040989190fe0d24e68",
+    "fileName": "019f18d3-9939-70e8-be9f-2a4428b7488c.png",
+    "prompt": "A single soft puff of powdery white snow kicked up into the air, isolated on a pure flat black background. Billowing fluffy white snow spray with faint pale blue shadows, soft translucent feathery edges, brightest in the center fading smoothly to transparency. Diffuse soft lighting, photoreal fine snow powder, centered, no other objects.",
+    "negativePrompt": "",
+    "model": "gemini-3.1-flash",
+    "modelName": "Gemini 3.1 Nano Banana 2",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0,
+    "dynamicParams": {
+        "serializedData": []
+    }
+}

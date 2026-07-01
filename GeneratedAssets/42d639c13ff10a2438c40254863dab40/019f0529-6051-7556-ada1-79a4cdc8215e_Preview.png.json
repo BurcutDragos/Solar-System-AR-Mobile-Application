@@ -1,0 +1,12 @@
+{
+    "asset": "42d639c13ff10a2438c40254863dab40",
+    "fileName": "019f0529-6051-7556-ada1-79a4cdc8215e_Preview.png",
+    "prompt": "Seamless tileable top-down aerial texture of the surface of Titania, the largest moon of Uranus. Ancient rugged grey water-ice and rock regolith with a subtle warm grey-brown tint. Heavily cratered with impact craters of varying sizes, crossed by enormous deep fault canyons and graben scarps (like Messina Chasmata) cutting long parallel troughs across the terrain. Scattered bright white fresh crater rims and faint reddish-tan staining in low areas. Dusty, matte, powdery airless surface, evenly and uniformly lit with no baked-in directional shadows, high detail, photorealistic planetary regolith.",
+    "negativePrompt": "",
+    "model": "gemini-3.1-flash-texture",
+    "modelName": "Gemini 3.1 Nano Banana 2",
+    "customSeed": 291025273,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

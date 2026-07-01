@@ -1,0 +1,12 @@
+{
+    "asset": "c1216c43bb4be8a4ebc363fe5e1465ac",
+    "fileName": "019efaa9-1c5f-7864-a84a-a2046419eca6_Preview.jpg",
+    "prompt": "Seamless tileable texture, photographed straight down from directly overhead (orthographic top-down aerial), of the real surface of Ariel, a moon of Uranus. Bright grey-white dirty ice regolith with a very faint cool bluish tint, criss-crossing ridges and grooves, shallow fault troughs and fractures, scattered impact craters, patches of darker grey dust between brighter icy areas. Absolutely no sky, no horizon, no planet, no mountains, no distance — only the flat ground seen from directly above, evenly lit, no baked shadows, fully seamless repeating tile.",
+    "negativePrompt": "",
+    "model": "realistic-textures-3-0",
+    "modelName": "Realistic Textures 3.0",
+    "customSeed": 2128325365,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

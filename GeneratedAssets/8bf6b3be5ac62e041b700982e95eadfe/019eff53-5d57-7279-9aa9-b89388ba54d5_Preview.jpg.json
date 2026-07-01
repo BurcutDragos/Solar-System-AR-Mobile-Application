@@ -1,0 +1,12 @@
+{
+    "asset": "8bf6b3be5ac62e041b700982e95eadfe",
+    "fileName": "019eff53-5d57-7279-9aa9-b89388ba54d5_Preview.jpg",
+    "prompt": "Seamless tileable texture, photographed straight down from directly overhead (orthographic top-down aerial), of the real surface of Io, Jupiter's volcanic moon. Vivid sulfur-covered volcanic plains: pale yellow, golden-orange, and white sulfur-dioxide frost crusts, patches of bright yellow and ochre sulfur, scattered black and dark-grey volcanic basalt deposits and lava flow stains, faint reddish-orange sulfur rings around small volcanic vents. Mottled yellow, orange, white, and black volcanic terrain. Absolutely no sky, no horizon, no glowing lava, no mountains, no distance — only the flat cooled crust ground seen from directly above, evenly lit, no baked shadows, fully seamless repeating tile.",
+    "negativePrompt": "",
+    "model": "realistic-textures-3-0",
+    "modelName": "Realistic Textures 3.0",
+    "customSeed": 470442762,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

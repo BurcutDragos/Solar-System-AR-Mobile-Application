@@ -1,0 +1,12 @@
+{
+    "asset": "c40b3525903d5f4428ee7e165406069b",
+    "fileName": "019f0edc-f710-734e-9d50-06f684333871_Preview.png",
+    "prompt": "Seamless tileable top-down aerial texture of the surface of Eris, the distant dwarf planet. Extremely bright, highly reflective fresh methane and nitrogen ice frost coating. Predominantly brilliant white and very pale grey with subtle cool blue-grey mottled patches and faint pale tan tints. Smooth icy plains broken by thin dark fractures, ridges and scattered shallow impact craters. Crisp clean frost, matte to slightly glossy icy surface, evenly and uniformly lit with no baked-in directional shadows, high detail, photorealistic planetary regolith.",
+    "negativePrompt": "",
+    "model": "gemini-3.1-flash-texture",
+    "modelName": "Gemini 3.1 Nano Banana 2",
+    "customSeed": 986839957,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

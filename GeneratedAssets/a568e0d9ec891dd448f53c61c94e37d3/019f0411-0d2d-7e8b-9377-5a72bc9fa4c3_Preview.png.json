@@ -1,0 +1,12 @@
+{
+    "asset": "a568e0d9ec891dd448f53c61c94e37d3",
+    "fileName": "019f0411-0d2d-7e8b-9377-5a72bc9fa4c3_Preview.png",
+    "prompt": "Seamless tileable top-down aerial texture of the surface of Rhea, the icy moon of Saturn. Ancient, extremely heavily cratered clean water-ice regolith with densely packed overlapping impact craters of every size, from large basins to tiny pits. Predominantly bright neutral grey-white with very subtle cool bluish-grey tint, bright fresh crater rims and faint pale wispy fracture streaks. Dusty, matte, powdery airless icy surface, evenly and uniformly lit with no baked-in directional shadows, high detail, photorealistic planetary regolith.",
+    "negativePrompt": "",
+    "model": "gemini-3.1-flash-texture",
+    "modelName": "Gemini 3.1 Nano Banana 2",
+    "customSeed": 144732692,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

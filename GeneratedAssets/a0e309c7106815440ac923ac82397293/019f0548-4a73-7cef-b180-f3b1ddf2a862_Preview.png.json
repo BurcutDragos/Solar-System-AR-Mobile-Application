@@ -1,0 +1,12 @@
+{
+    "asset": "a0e309c7106815440ac923ac82397293",
+    "fileName": "019f0548-4a73-7cef-b180-f3b1ddf2a862_Preview.png",
+    "prompt": "Seamless tileable top-down aerial texture of the surface of Umbriel, the darkest moon of Uranus. Very dark, low-albedo charcoal grey water-ice and rock regolith, uniform and muted with little color variation. Ancient, heavily cratered terrain with soft-edged overlapping impact craters of many sizes, subtle and worn. Predominantly dark neutral grey to near-black with only faint lighter grey crater rims. Dusty, matte, powdery airless surface, evenly and uniformly lit with no baked-in directional shadows, high detail, photorealistic dark planetary regolith.",
+    "negativePrompt": "",
+    "model": "gemini-3.1-flash-texture",
+    "modelName": "Gemini 3.1 Nano Banana 2",
+    "customSeed": 1562130245,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}
