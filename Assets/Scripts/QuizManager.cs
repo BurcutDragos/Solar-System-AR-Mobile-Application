@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -34,6 +35,14 @@ public class QuizManager : MonoBehaviour
     private List<int> userAnswers = new List<int>();
 
     private int reviewIndex = 0;
+
+    // --- Answer feedback styling ---
+    private static readonly Color BaseAnswerColor = new Color32(0x2E, 0x3B, 0x57, 0xFF);
+    private static readonly Color CorrectColor    = new Color32(0x33, 0xC4, 0x6A, 0xFF);
+    private static readonly Color WrongColor      = new Color32(0xE5, 0x48, 0x4D, 0xFF);
+    private bool answering = false;
+    [Tooltip("Seconds the correct/wrong colour feedback stays visible before advancing.")]
+    public float feedbackDelay = 0.9f;
 
     private void Start()
     {
@@ -78,6 +87,9 @@ public class QuizManager : MonoBehaviour
             int index = i;
 
             answerButtons[i].GetComponentInChildren<TextMeshProUGUI>().text = question.answers[i];
+            answerButtons[i].interactable = true;
+            Image ansImg = answerButtons[i].GetComponent<Image>();
+            if (ansImg != null) ansImg.color = BaseAnswerColor;
             answerButtons[i].onClick.RemoveAllListeners();
             answerButtons[i].onClick.AddListener(() => CheckAnswer(index));
         }
@@ -91,14 +103,34 @@ public class QuizManager : MonoBehaviour
 
     void CheckAnswer(int selectedIndex)
     {
+        if (answering) return;             // ignore taps while feedback is showing
+        StartCoroutine(RevealThenAdvance(selectedIndex));
+    }
+
+    IEnumerator RevealThenAdvance(int selectedIndex)
+    {
+        answering = true;
         userAnswers.Add(selectedIndex);
 
-        if (selectedIndex == selectedQuestions[currentQuestionIndex].correctAnswerIndex)
-        {
+        int correctIndex = selectedQuestions[currentQuestionIndex].correctAnswerIndex;
+        if (selectedIndex == correctIndex)
             score++;
+
+        // Immediate colour feedback: reveal the correct answer (green);
+        // if the user was wrong, also flag their choice (red).
+        for (int i = 0; i < answerButtons.Length; i++)
+        {
+            answerButtons[i].interactable = false;
+            Image img = answerButtons[i].GetComponent<Image>();
+            if (img == null) continue;
+            if (i == correctIndex) img.color = CorrectColor;
+            else if (i == selectedIndex) img.color = WrongColor;
         }
 
+        yield return new WaitForSeconds(feedbackDelay);
+
         currentQuestionIndex++;
+        answering = false;
         ShowQuestion();
     }
 
@@ -153,17 +185,17 @@ public class QuizManager : MonoBehaviour
 
             Image btnImage = reviewAnswerButtons[i].GetComponent<Image>();
 
-            // Reset culoare
-            btnImage.color = Color.white;
+            // Reset to the modern slate base colour
+            btnImage.color = BaseAnswerColor;
 
             if (i == correctIndex)
             {
-                btnImage.color = Color.green;
+                btnImage.color = CorrectColor;
             }
 
             if (i == userIndex && userIndex != correctIndex)
             {
-                btnImage.color = Color.red;
+                btnImage.color = WrongColor;
             }
         }
     }

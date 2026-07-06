@@ -624,7 +624,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: BACK
+  m_text: Back
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3699,6 +3699,14 @@ MonoBehaviour:
   minPitch: 0.65
   maxPitch: 1.35
   audioFadeSpeed: 3
+  turnRateForFullStrain: 0.8
+  turnPitchDrop: 0.18
+  turnVolumeBoost: 0.15
+  turnActivation: 0.15
+  windObjectName: WindAmbience
+  windRestFactor: 0.5
+  windFullFactor: 1.15
+  windLerpSpeed: 2
   dustTexture: {fileID: 2800000, guid: f0ecac26af4a12a43912059ff6ed9907, type: 3}
   iceTexture: {fileID: 2800000, guid: b786c0dabef6ddd4694d042f3126f0fe, type: 3}
   snowTexture: {fileID: 2800000, guid: f0b5a2bffe4f2d040989190fe0d24e68, type: 3}
