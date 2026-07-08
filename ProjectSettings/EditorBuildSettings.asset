@@ -404,6 +404,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Screens/NeptuneShipScreen.unity
     guid: 571fde8aedafd2e45b20aeaaa26f5d31
+  - enabled: 1
+    path: Assets/Scenes/Screens/ARViewScreen.unity
+    guid: f1ff0fe14e4651c4bb27fb8031dd6013
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 4465d33630215434581b3cb6b52effb2, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: e03b205b28ee86d4eb480011fa770b79, type: 2}
