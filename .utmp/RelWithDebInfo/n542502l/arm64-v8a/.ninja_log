@@ -1,0 +1,12 @@
+# ninja log v5
+45	341	8052402295247114	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	c7b1c47ac554aa9f
+343	623	8052402297551579	D:/GitHub repositories/Solar System AR Mobile Application/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/n542502l/obj/arm64-v8a/libswappywrapper.so	3f4133c505c60192
+20	1839	8052402310063463	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	c21543a96e0d6a58
+27	1847	8052402310088708	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	aff8aeb459a8c24f
+5	1929	8052402310951285	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	e3fb060071b03066
+32	1951	8052402311282017	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	809774d7374545c8
+10	2034	8052402312118963	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	df32eaaa47478e8e
+15	2299	8052402314758512	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	ab7aac5a3dd3f591
+0	2439	8052402316157791	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	4ae498aa15e25eee
+38	2765	8052402319416057	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	c4cf29da4c127b69
+2766	2870	8052402320500954	D:/GitHub repositories/Solar System AR Mobile Application/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/n542502l/obj/arm64-v8a/libgame.so	7ec3f3dce6579763

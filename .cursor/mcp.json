@@ -1,15 +1,15 @@
 {
   "mcpServers": {
     "unity-mcp-gateway": {
-      "command": "D:\\Aplicatii Unity\\Solar System AR Mobile Application\\Library\\PackageCache\\com.unity.ai.assistant@e1f49a972172\\RelayApp~\\relay_win.exe",
+      "command": "D:\\GitHub repositories\\Solar System AR Mobile Application\\Library\\PackageCache\\com.unity.ai.assistant@6fee27370e6a\\RelayApp~\\relay_win.exe",
       "args": [
         "--mcp",
         "--log-dir",
-        "D:\\Aplicatii Unity\\Solar System AR Mobile Application\\Logs"
+        "D:\\GitHub repositories\\Solar System AR Mobile Application\\Logs"
       ],
       "env": {
-        "UNITY_ACP_SESSION_TOKEN": "d1c23d9205884974fb9fc676a8ab02dff8d3b2cd53af8f5b676fb1f9bb5ca757",
-        "UNITY_INSTANCE_ID": "10940"
+        "UNITY_ACP_SESSION_TOKEN": "268506ab457b2223f9f2c51e24cccd3ab790ba398d134b5939c61a0e3da65aa7",
+        "UNITY_INSTANCE_ID": "1756"
       }
     }
   }
