@@ -148,7 +148,7 @@ public class ARViewController : MonoBehaviour
         if (hintLabel)
         {
             hintLabel.gameObject.SetActive(true);
-            hintLabel.text = "Move your phone to scan a surface, then tap to place " + ARLaunchData.BodyName;
+            hintLabel.text = "1. Move your phone to scan a surface.\n2. Tap to place " + ARLaunchData.BodyName;
         }
     }
 
@@ -181,7 +181,7 @@ public class ARViewController : MonoBehaviour
 
         Transform camT = arCamera != null ? arCamera.transform : Camera.main.transform;
         planet.transform.position = camT.position + camT.forward * fallbackPlanetDistance;
-        planet.transform.localScale = Vector3.one * fallbackPlanetDiameter;
+        planet.transform.localScale = ScaleFor(fallbackPlanetDiameter);
         planet.SetActive(true);
         placed = true;
 
@@ -216,12 +216,12 @@ public class ARViewController : MonoBehaviour
             Pose pose = s_Hits[0].pose;
             _placedPosition = pose.position + Vector3.up * (arPlanetDiameter * 0.5f);
             planet.transform.position = _placedPosition;
-            planet.transform.localScale = Vector3.one * arPlanetDiameter;
+            planet.transform.localScale = ScaleFor(arPlanetDiameter);
             planet.SetActive(true);
             placed = true;
             if (hintLabel)
             {
-                hintLabel.text = "One finger: move   \u2022   Two fingers: pinch/twist   \u2022   Double-tap: reset";
+                hintLabel.text = "One finger: move\nTwo fingers: pinch/twist\nDouble-tap: reset";
                 CancelInvoke(nameof(HideHint));
                 Invoke(nameof(HideHint), 4f);
             }
@@ -280,8 +280,8 @@ public class ARViewController : MonoBehaviour
                 if (_prevPinchDist > 0.001f)
                 {
                     float factor = dist / _prevPinchDist;
-                    float newDiameter = Mathf.Clamp(planet.transform.localScale.x * factor, 0.05f, 3f);
-                    planet.transform.localScale = Vector3.one * newDiameter;
+                    float newDiameter = Mathf.Clamp(CurrentDiameter() * factor, 0.05f, 3f);
+                    planet.transform.localScale = ScaleFor(newDiameter);
                 }
                 // Rotate around the planet's up axis by the change in finger angle.
                 float deltaAngle = Mathf.DeltaAngle(_prevTwistAngle, angle);
@@ -320,7 +320,7 @@ public class ARViewController : MonoBehaviour
     void ResetPlanet()
     {
         planet.transform.position = _placedPosition;
-        planet.transform.localScale = Vector3.one * arPlanetDiameter;
+        planet.transform.localScale = ScaleFor(arPlanetDiameter);
         planet.transform.rotation = ARLaunchData.Rotation;
         _pinching = false;
         _dragging = false;
@@ -417,6 +417,19 @@ public class ARViewController : MonoBehaviour
         if (isMuted) { planetAudio.Play(); if (soundLabel) soundLabel.text = "Mute"; }
         else { planetAudio.Stop(); if (soundLabel) soundLabel.text = "Unmute"; }
         isMuted = !isMuted;
+    }
+
+    /// <summary>Scale vector for a given AR diameter that preserves the body's ellipsoid shape.</summary>
+    Vector3 ScaleFor(float diameter)
+    {
+        return ARLaunchData.ShapeRatio * diameter;
+    }
+
+    /// <summary>Recovers the current AR "diameter" from a shape-preserving scale (largest axis).</summary>
+    float CurrentDiameter()
+    {
+        Vector3 s = planet.transform.localScale;
+        return Mathf.Max(Mathf.Abs(s.x), Mathf.Max(Mathf.Abs(s.y), Mathf.Abs(s.z)));
     }
 
     Mesh DefaultSphereMesh()

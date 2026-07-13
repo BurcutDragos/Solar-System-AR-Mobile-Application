@@ -73,6 +73,10 @@ public class ShipFlightController : MonoBehaviour
     {
         if (useSim) return Vector2.ClampMagnitude(simInput, 1f);
 
+        // Finger-slide (floating joystick) takes priority over all other sources;
+        // it replaces the old on-screen joystick on device.
+        if (TouchDriveInput.Active) return Vector2.ClampMagnitude(TouchDriveInput.Value, 1f);
+
         Vector2 v = Vector2.zero;
         if (moveAction != null) v = moveAction.ReadValue<Vector2>();
         if (v.sqrMagnitude < 0.0001f && Gamepad.current != null)

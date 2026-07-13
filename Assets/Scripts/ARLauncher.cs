@@ -26,6 +26,7 @@ public class ARLauncher : MonoBehaviour
             ARLaunchData.Material = mr != null ? mr.sharedMaterial : null;
             ARLaunchData.Sound = au != null ? au.clip : null;
             ARLaunchData.SourceScale = planet.transform.localScale.x;
+            ARLaunchData.SourceScaleVector = planet.transform.localScale;      // preserve ellipsoid shape (e.g. Haumea, Varuna)
             ARLaunchData.Rotation = planet.transform.rotation;                 // preserve axial tilt
             ARLaunchData.SpeedMultiplier = rot != null ? rot.speedMultiplier : 15000f;
 

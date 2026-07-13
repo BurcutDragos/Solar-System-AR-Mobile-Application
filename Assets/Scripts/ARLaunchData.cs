@@ -15,6 +15,33 @@ public static class ARLaunchData
     public static string ReturnScene = "PlanetsScreen";
     public static float SourceScale = 1f;
 
+    /// <summary>
+    /// The body's full non-uniform local scale from the display scene. Bodies such
+    /// as Haumea and Varuna are ellipsoids expressed purely through non-uniform
+    /// scale; the AR view uses the RATIO of these components (normalized to the
+    /// largest axis) so the placed planet keeps its real elongated shape instead of
+    /// being forced into a perfect sphere.
+    /// </summary>
+    public static Vector3 SourceScaleVector = Vector3.one;
+
+    /// <summary>
+    /// SourceScaleVector normalized so its largest component is 1. Multiply by the
+    /// desired AR diameter to get a shape-preserving localScale.
+    /// </summary>
+    public static Vector3 ShapeRatio
+    {
+        get
+        {
+            float max = Mathf.Max(Mathf.Abs(SourceScaleVector.x),
+                        Mathf.Max(Mathf.Abs(SourceScaleVector.y), Mathf.Abs(SourceScaleVector.z)));
+            if (max < 1e-5f) return Vector3.one;
+            return new Vector3(
+                Mathf.Abs(SourceScaleVector.x) / max,
+                Mathf.Abs(SourceScaleVector.y) / max,
+                Mathf.Abs(SourceScaleVector.z) / max);
+        }
+    }
+
     /// <summary>The planet's axial tilt, taken from its transform rotation in the display scene.</summary>
     public static Quaternion Rotation = Quaternion.identity;
 

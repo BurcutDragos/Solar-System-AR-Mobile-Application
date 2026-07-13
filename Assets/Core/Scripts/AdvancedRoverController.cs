@@ -59,7 +59,9 @@ public class AdvancedRoverController : MonoBehaviour
 
     void Update()
     {
-        if (moveAction != null) moveInput = moveAction.ReadValue<Vector2>();
+        // Finger-slide (floating joystick) takes priority over the Move action.
+        if (TouchDriveInput.Active) moveInput = TouchDriveInput.Value;
+        else if (moveAction != null) moveInput = moveAction.ReadValue<Vector2>();
 
         UpdateWheelVisuals();
         UpdateArticulation();

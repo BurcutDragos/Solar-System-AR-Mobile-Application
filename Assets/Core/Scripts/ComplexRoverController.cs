@@ -95,11 +95,18 @@ public class ComplexRoverController : MonoBehaviour
 
     void Update()
     {
-        // Continuously read live input so WASD/arrow keys (editor) and the
-        // on-screen joystick (Android) both drive the rover every frame.
-        // SimulateInput() (used only by automated tests) overrides this path.
-        if (Application.isPlaying && !inputSimulated && moveAction != null)
-            moveInput = moveAction.ReadValue<Vector2>();
+        // Continuously read live input. Priority: automated-test simulation >
+        // finger-slide (TouchDriveInput) > the "Move" action (keyboard/gamepad in
+        // the editor). The finger-slide path replaces the old on-screen joystick.
+        if (Application.isPlaying && !inputSimulated)
+        {
+            if (TouchDriveInput.Active)
+                moveInput = TouchDriveInput.Value;
+            else if (moveAction != null)
+                moveInput = moveAction.ReadValue<Vector2>();
+            else
+                moveInput = Vector2.zero;
+        }
         
         AnimateVisuals();
     }

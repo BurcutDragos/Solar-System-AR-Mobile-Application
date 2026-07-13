@@ -15,6 +15,27 @@ EditorBuildSettings:
     path: Assets/Scenes/Screens/MoonsScreen1.unity
     guid: ed0a215ea2bef984fa04494a136d9e8e
   - enabled: 1
+    path: Assets/Scenes/Screens/MoonsScreen2.unity
+    guid: 11cbbb76913adce439a1de66e3fe119b
+  - enabled: 1
+    path: Assets/Scenes/Screens/MoonsScreen3.unity
+    guid: 28c31c14a66fa9246ba9c7a70aede5f3
+  - enabled: 1
+    path: Assets/Scenes/Screens/DwarfPlanetsScreen1.unity
+    guid: 50f178bb3ebce37499368bae07c68b73
+  - enabled: 1
+    path: Assets/Scenes/Screens/DwarfPlanetsScreen2.unity
+    guid: 2e0c7420f1b71504982b19b465ba6a5d
+  - enabled: 1
+    path: Assets/Scenes/Screens/OthersScreen.unity
+    guid: b742cde9fc15e524697eeb0239a43f06
+  - enabled: 1
+    path: Assets/Scenes/Screens/QuizScreen.unity
+    guid: e723b6a373fa9c746b6f56551286d695
+  - enabled: 1
+    path: Assets/Scenes/Screens/ARViewScreen.unity
+    guid: f1ff0fe14e4651c4bb27fb8031dd6013
+  - enabled: 1
     path: Assets/Scenes/Celestial Bodies/Satellites/Charon.unity
     guid: 839cc17dad17ed243a978ef42b79d556
   - enabled: 1
@@ -204,21 +225,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Celestial Bodies/Satellites/Moon.unity
     guid: 4ad3dee78c841f2498790f1a86bc5f18
   - enabled: 1
-    path: Assets/Scenes/Screens/DwarfPlanetsScreen1.unity
-    guid: 50f178bb3ebce37499368bae07c68b73
-  - enabled: 1
-    path: Assets/Scenes/Screens/DwarfPlanetsScreen2.unity
-    guid: 2e0c7420f1b71504982b19b465ba6a5d
-  - enabled: 1
-    path: Assets/Scenes/Screens/MoonsScreen2.unity
-    guid: 11cbbb76913adce439a1de66e3fe119b
-  - enabled: 1
-    path: Assets/Scenes/Screens/MoonsScreen3.unity
-    guid: 28c31c14a66fa9246ba9c7a70aede5f3
-  - enabled: 1
-    path: Assets/Scenes/Screens/OthersScreen.unity
-    guid: b742cde9fc15e524697eeb0239a43f06
-  - enabled: 1
     path: Assets/Scenes/Celestial Bodies/Satellites/InfoSceneMoon.unity
     guid: 352b104f422df9946919be58af7a2e9d
   - enabled: 1
@@ -281,9 +287,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Celestial Bodies/Planets/InfoSceneVenus.unity
     guid: 3b9e68aad0f257843951244a0b5c7cff
-  - enabled: 1
-    path: Assets/Scenes/Screens/QuizScreen.unity
-    guid: e723b6a373fa9c746b6f56551286d695
   - enabled: 1
     path: Assets/Scenes/Screens/MarsRoverScreen.unity
     guid: 770001fc33900104cae00fcb1d2a4991
@@ -404,9 +407,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Screens/NeptuneShipScreen.unity
     guid: 571fde8aedafd2e45b20aeaaa26f5d31
-  - enabled: 1
-    path: Assets/Scenes/Screens/ARViewScreen.unity
-    guid: f1ff0fe14e4651c4bb27fb8031dd6013
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 4465d33630215434581b3cb6b52effb2, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: e03b205b28ee86d4eb480011fa770b79, type: 2}
