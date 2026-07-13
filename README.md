@@ -2,6 +2,7 @@
  This Augmented Reality Android application is an interactive application developed with Unity that allows users to explore the solar system in an engaging and educational manner. Each celestial body is meticulously represented, offering both visual and auditory information specific to each.
 
  ## 📱 Key Features:
+- **Augmented Reality (AR) Integration**: Bring the solar system into your physical environment. Using the smartphone's camera, users can project highly detailed 3D models of each celestial body directly into their real-world space for a highly immersive and engaging educational experience.
 - **Interactive Exploration**: Navigate through dedicated scenes for each celestial body in the solar system. Realistic planetary textures and rotations.
 - **Detailed Information**: Each planet and satellite comes with an informative description presented in an accessible format.
 - **Audio Experience**: Listen to unique sounds associated with each celestial body, with the option to toggle the sound on or off using a "Mute/Unmute" button.
@@ -16,7 +17,6 @@ This repository includes:
 - `ProjectSettings/` — Configuration for the Unity project
 - `README.md` — This documentation file
 - `LICENSE` — Project license
-- `Solar_System_Mobile_AR_Application.apk` — A pre-built APK to test the app on Android devices (in future)
 
 ## ❌ Not Included (Git-Ignored):
 
@@ -56,9 +56,9 @@ Unity will automatically recreate the missing folders (like Library/) and recomp
 ### 6. Build and Run on Android
 - Switch to Android Platform (File > Build Settings)
 - Connect your Android device via USB with Developer Mode enabled
-- Click Build and Run
+- Click "Build and Run" option
 
-Alternatively, install the provided Solar_System_Mobile_AR_Application.apk onto your Android device to test it immediately.
+Alternatively, click "Build" option and install the new Solarity.apk file onto your Android device to test it immediately.
 
 ## 🧠 Notes:
 - Make sure your device supports **ARCore**.
