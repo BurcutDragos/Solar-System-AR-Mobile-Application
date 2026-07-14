@@ -28,19 +28,35 @@ public class TouchDriveInput : MonoBehaviour
     /// <summary>Current steering vector, components in [-1, 1]. Zero when not dragging.</summary>
     public static Vector2 Value { get; private set; }
 
+    // --- On-screen D-pad (button) source, written by TouchArrowControls ---
+    private static Vector2 s_buttonValue;
+    private static bool s_buttonActive;
+
+    /// <summary>
+    /// Feed the shared steering vector from the on-screen arrow buttons.
+    /// Active swipe/drag takes priority; otherwise these button values are used,
+    /// so finger-sliding and the D-pad both work (Problem 4, button variant).
+    /// </summary>
+    public static void SetButtonInput(Vector2 v)
+    {
+        s_buttonValue = Vector2.ClampMagnitude(v, 1f);
+        s_buttonActive = s_buttonValue.sqrMagnitude > 0.000001f;
+    }
+
     [Tooltip("Drag distance (as a fraction of the screen's shorter side) that maps to full deflection.")]
     public float radiusFraction = 0.15f;
 
     private bool dragging;
     private Vector2 origin;
     private int activeTouchId = -1;
+    private Vector2 dragVector;   // current drag deflection while dragging
 
     void OnDisable()
     {
         dragging = false;
         activeTouchId = -1;
-        Active = false;
-        Value = Vector2.zero;
+        dragVector = Vector2.zero;
+        PublishState();
     }
 
     void Update()
@@ -51,82 +67,104 @@ public class TouchDriveInput : MonoBehaviour
         var ts = Touchscreen.current;
         if (ts != null && ts.touches.Count > 0)
         {
-            if (!dragging)
-            {
-                // Look for a fresh touch that did NOT start over UI.
-                foreach (var t in ts.touches)
-                {
-                    if (t.press.wasPressedThisFrame && t.press.isPressed)
-                    {
-                        Vector2 p = t.position.ReadValue();
-                        if (IsOverUI(p)) continue;
-                        dragging = true;
-                        activeTouchId = t.touchId.ReadValue();
-                        origin = p;
-                        break;
-                    }
-                }
-            }
-
-            if (dragging)
-            {
-                // Follow the specific finger we started with.
-                foreach (var t in ts.touches)
-                {
-                    if (t.touchId.ReadValue() != activeTouchId) continue;
-                    if (t.press.isPressed)
-                    {
-                        UpdateVector(t.position.ReadValue(), radius);
-                    }
-                    else
-                    {
-                        EndDrag();
-                    }
-                    return;
-                }
-                // Finger no longer reported: end.
-                EndDrag();
-            }
-            return;
+            ReadTouch(ts, radius);
         }
-
-        // --- Mouse fallback (Editor / PC) ---
-        var mouse = Mouse.current;
-        if (mouse != null)
+        else
         {
-            if (!dragging && mouse.leftButton.wasPressedThisFrame)
+            // --- Mouse fallback (Editor / PC) ---
+            var mouse = Mouse.current;
+            if (mouse != null)
             {
-                Vector2 p = mouse.position.ReadValue();
-                if (!IsOverUI(p)) { dragging = true; origin = p; }
-            }
-            else if (dragging && mouse.leftButton.isPressed)
-            {
-                UpdateVector(mouse.position.ReadValue(), radius);
+                if (!dragging && mouse.leftButton.wasPressedThisFrame)
+                {
+                    Vector2 p = mouse.position.ReadValue();
+                    if (!IsOverUI(p)) { dragging = true; origin = p; dragVector = Vector2.zero; }
+                }
+                else if (dragging && mouse.leftButton.isPressed)
+                {
+                    UpdateVector(mouse.position.ReadValue(), radius);
+                }
+                else if (dragging)
+                {
+                    EndDrag();
+                }
             }
             else if (dragging)
             {
                 EndDrag();
             }
-            return;
         }
 
-        // No input device available.
-        if (dragging) EndDrag();
+        // Combine finger-slide with the on-screen D-pad each frame.
+        PublishState();
+    }
+
+    void ReadTouch(Touchscreen ts, float radius)
+    {
+        if (!dragging)
+        {
+            // Look for a fresh touch that did NOT start over UI (buttons, Back, etc.).
+            foreach (var t in ts.touches)
+            {
+                if (t.press.wasPressedThisFrame && t.press.isPressed)
+                {
+                    Vector2 p = t.position.ReadValue();
+                    if (IsOverUI(p)) continue;
+                    dragging = true;
+                    activeTouchId = t.touchId.ReadValue();
+                    origin = p;
+                    dragVector = Vector2.zero;
+                    break;
+                }
+            }
+        }
+
+        if (dragging)
+        {
+            // Follow the specific finger we started with.
+            foreach (var t in ts.touches)
+            {
+                if (t.touchId.ReadValue() != activeTouchId) continue;
+                if (t.press.isPressed) UpdateVector(t.position.ReadValue(), radius);
+                else EndDrag();
+                return;
+            }
+            // Finger no longer reported: end.
+            EndDrag();
+        }
+    }
+
+    /// <summary>Merge the drag source and the button source into the public contract.</summary>
+    void PublishState()
+    {
+        if (dragging)
+        {
+            Active = true;
+            Value = dragVector;
+        }
+        else if (s_buttonActive)
+        {
+            Active = true;
+            Value = s_buttonValue;
+        }
+        else
+        {
+            Active = false;
+            Value = Vector2.zero;
+        }
     }
 
     void UpdateVector(Vector2 current, float radius)
     {
         Vector2 delta = (current - origin) / radius;
-        Value = Vector2.ClampMagnitude(delta, 1f);
-        Active = true;
+        dragVector = Vector2.ClampMagnitude(delta, 1f);
     }
 
     void EndDrag()
     {
         dragging = false;
         activeTouchId = -1;
-        Active = false;
-        Value = Vector2.zero;
+        dragVector = Vector2.zero;
     }
 
     static bool IsOverUI(Vector2 screenPos)

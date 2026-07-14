@@ -1,0 +1,31 @@
+{
+    "asset": "1ad9c1b86aaf692469a8b28baa8a713e",
+    "fileName": "019f6241-fa89-7c04-ba17-2a0800d30078.png",
+    "prompt": "A single round circular mobile touchscreen control button viewed top-down (flat icon), with one upward-pointing triangular chevron arrow centered inside it. Sleek sci-fi HUD style: dark semi-translucent glass disc with a thin glowing cyan-blue rim and a soft inner glow, the arrow glyph is bright white/cyan and crisp. Perfectly symmetrical left-to-right, arrow pointing straight up, centered in frame, clean edges, transparent background, no text, no shadow spill outside the disc. Space exploration app UI aesthetic.",
+    "negativePrompt": "",
+    "model": "gemini-3.0-pro",
+    "modelName": "Gemini 3.0 Pro",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0,
+    "dynamicParams": {
+        "serializedData": []
+    }
+}

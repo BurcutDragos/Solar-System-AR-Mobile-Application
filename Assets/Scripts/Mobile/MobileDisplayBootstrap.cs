@@ -13,8 +13,9 @@ using UnityEngine.UI;
 ///     fills the screen edge-to-edge on tall phones (Problems 1 &amp; 2, UI part).
 ///   • <see cref="CameraFovFitter"/> on the main camera of celestial-body display
 ///     scenes — the planet is framed exactly as in the editor (Problem 2).
-///   • <see cref="TouchDriveInput"/> + hides the OnScreenStick in rover/ship scenes —
-///     the vehicle is driven by sliding a finger anywhere (Problem 4).
+///   • <see cref="TouchDriveInput"/> + <see cref="TouchArrowControls"/> and hides the
+///     OnScreenStick in rover/ship scenes — the vehicle is driven by the on-screen
+///     arrow D-pad and/or by sliding a finger anywhere (Problem 4).
 ///
 /// Installed once via <see cref="RuntimeInitializeOnLoadMethod"/>; hooks
 /// SceneManager.sceneLoaded and also fixes the scene that is already active at boot.
@@ -84,10 +85,13 @@ public static class MobileDisplayBootstrap
                 cam.gameObject.AddComponent<CameraFovFitter>();
         }
 
-        // 3) Finger-slide driving — rover/ship scenes.
+        // 3) Touch driving — rover/ship scenes. Both the finger-slide driver and the
+        //    on-screen arrow D-pad feed the same TouchDriveInput contract, so the
+        //    player can use whichever they prefer.
         if (isVehicleScene)
         {
             EnsureTouchDriveInput();
+            EnsureTouchArrowControls();
             HideOnScreenSticks(roots);
         }
     }
@@ -97,6 +101,13 @@ public static class MobileDisplayBootstrap
         if (Object.FindFirstObjectByType<TouchDriveInput>() != null) return;
         var go = new GameObject("~TouchDriveInput");
         go.AddComponent<TouchDriveInput>();
+    }
+
+    static void EnsureTouchArrowControls()
+    {
+        if (Object.FindFirstObjectByType<TouchArrowControls>() != null) return;
+        var go = new GameObject("~TouchArrowControls");
+        go.AddComponent<TouchArrowControls>();
     }
 
     static void HideOnScreenSticks(GameObject[] roots)
