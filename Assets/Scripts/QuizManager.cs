@@ -27,6 +27,7 @@ public class QuizManager : MonoBehaviour
     public GameObject reviewPanel;
     public TextMeshProUGUI reviewQuestionText;
     public Button[] reviewAnswerButtons;
+    public TextMeshProUGUI reviewProgressText;
 
     private List<QuizQuestion> selectedQuestions = new List<QuizQuestion>();
     private int currentQuestionIndex = 0;
@@ -198,6 +199,8 @@ public class QuizManager : MonoBehaviour
                 btnImage.color = WrongColor;
             }
         }
+
+        reviewProgressText.text = (reviewIndex + 1) + " / " + numberOfQuestions;
     }
 
     public void NextReview()
