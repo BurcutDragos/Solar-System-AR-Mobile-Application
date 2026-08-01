@@ -104,7 +104,7 @@ public class ARViewController : MonoBehaviour
 
         if (ARLaunchData.HasRings)
         {
-            var ringsComp = planet.AddComponent<SaturnRings>();
+            var ringsComp = planet.AddComponent<RingsSystem>();
             ringsComp.segments = ARLaunchData.RingSegments;
             ringsComp.innerRadius = ARLaunchData.RingInnerRadius;
             ringsComp.thickness = ARLaunchData.RingThickness;

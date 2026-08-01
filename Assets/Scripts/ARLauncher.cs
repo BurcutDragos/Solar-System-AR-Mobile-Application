@@ -31,7 +31,7 @@ public class ARLauncher : MonoBehaviour
             ARLaunchData.SpeedMultiplier = rot != null ? rot.speedMultiplier : 15000f;
 
             // Check if the planet has a ring system (e.g., Saturn, Chiron)
-            var rings = planet.GetComponent<SaturnRings>();
+            var rings = planet.GetComponent<RingsSystem>();
             if (rings != null)
             {
                 ARLaunchData.HasRings = true;

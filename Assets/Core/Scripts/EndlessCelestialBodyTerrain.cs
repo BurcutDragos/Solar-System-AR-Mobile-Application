@@ -4,7 +4,7 @@ using System.Collections.Generic;
 // Keeps a seamless 3x3 grid of terrain tiles centered on the target (rover),
 // recycling tiles as the target crosses tile boundaries so the surface is
 // effectively infinite and the rover can never reach an edge / fall into the void.
-public class EndlessMartianTerrain : MonoBehaviour
+public class EndlessCelestialBodyTerrain : MonoBehaviour
 {
     [Header("Target Tracking")]
     public Transform target; // The rover to center the terrain around
@@ -32,7 +32,7 @@ public class EndlessMartianTerrain : MonoBehaviour
 
         if (masterTerrain == null)
         {
-            Debug.LogError("[EndlessMartianTerrain] No master terrain assigned or found in scene!");
+            Debug.LogError("[EndlessCelestialBodyTerrain] No master terrain assigned or found in scene!");
             enabled = false;
             return;
         }
@@ -40,7 +40,7 @@ public class EndlessMartianTerrain : MonoBehaviour
         terrainData = masterTerrain.terrainData;
         if (terrainData == null)
         {
-            Debug.LogError("[EndlessMartianTerrain] Master terrain has no TerrainData!");
+            Debug.LogError("[EndlessCelestialBodyTerrain] Master terrain has no TerrainData!");
             enabled = false;
             return;
         }
@@ -55,13 +55,13 @@ public class EndlessMartianTerrain : MonoBehaviour
 
         if (target == null)
         {
-            var rover = GameObject.Find("MarsRover");
+            var rover = GameObject.Find("CelestialBodyRover");
             if (rover != null) target = rover.transform;
         }
 
         if (target == null)
         {
-            Debug.LogWarning("[EndlessMartianTerrain] No target assigned! Tracking will fall back to Main Camera.");
+            Debug.LogWarning("[EndlessCelestialBodyTerrain] No target assigned! Tracking will fall back to Main Camera.");
             if (Camera.main != null) target = Camera.main.transform;
         }
 
@@ -102,7 +102,7 @@ public class EndlessMartianTerrain : MonoBehaviour
 
     Terrain CreateTerrainTile(int gridX, int gridZ)
     {
-        GameObject go = new GameObject("MarsTerrain_Tile_" + gridX + "_" + gridZ);
+        GameObject go = new GameObject("CelestialBodyTerrain_Tile_" + gridX + "_" + gridZ);
         go.layer = masterTerrain.gameObject.layer;
         go.transform.parent = transform;
         go.transform.position = TilePosition(gridX, gridZ);
@@ -183,7 +183,7 @@ public class EndlessMartianTerrain : MonoBehaviour
                 {
                     Terrain recycle = availableTerrains[0];
                     availableTerrains.RemoveAt(0);
-                    recycle.gameObject.name = "MarsTerrain_Tile_" + gridX + "_" + gridZ;
+                    recycle.gameObject.name = "CelestialBodyTerrain_Tile_" + gridX + "_" + gridZ;
                     recycle.transform.position = TilePosition(gridX, gridZ);
                     newGrid[z, x] = recycle;
                 }

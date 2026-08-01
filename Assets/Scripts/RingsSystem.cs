@@ -7,7 +7,7 @@ using UnityEngine;
 // It is useful for previewing and updating the ring mesh in real time
 // when parameters are modified in the Inspector.
 [ExecuteInEditMode]
-public class SaturnRings : MonoBehaviour
+public class RingsSystem : MonoBehaviour
 {
     // =======================
     // Manual configuration
