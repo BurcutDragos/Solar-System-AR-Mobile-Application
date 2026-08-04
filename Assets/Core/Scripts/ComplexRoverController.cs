@@ -8,6 +8,8 @@ public class ComplexRoverController : MonoBehaviour
     public float moveForce = 200000f; 
     public float turnTorque = 60000f;
     public float maxSpeed = 12f;
+    [Tooltip("Reverse speed as a fraction of maxSpeed. Reverse is slower than forward, like a real vehicle.")]
+    [Range(0.1f, 1f)] public float reverseSpeedFactor = 0.5f;
     public float brakeForce = 120000f;
     
     [Header("Suspension Physics")]
@@ -152,9 +154,28 @@ public class ComplexRoverController : MonoBehaviour
         if (grounded)
         {
             float traction = (float)groundedCount / suspensionPoints.Length;
-            if (rb.linearVelocity.magnitude < maxSpeed)
-                rb.AddForce(transform.forward * moveInput.y * moveForce * traction);
-            rb.AddTorque(transform.up * moveInput.x * turnTorque * traction);
+
+            // Throttle input drives reverse SPEED: powered reverse is slower than
+            // forward, like a real vehicle. All input sources (keyboard, on-screen
+            // D-pad, finger-drag) funnel through moveInput.y, so this covers them all.
+            bool throttleReverse = moveInput.y < -0.1f;
+            float driveFactor = throttleReverse ? reverseSpeedFactor : 1f;
+
+            if (rb.linearVelocity.magnitude < maxSpeed * driveFactor)
+                rb.AddForce(transform.forward * moveInput.y * moveForce * driveFactor * traction);
+
+            // Steering direction is based on the rover's ACTUAL direction of travel,
+            // not just the throttle input. This makes "right" always curve the rover
+            // to the user's right whether they hold reverse+right together (keyboard)
+            // OR simply tap the on-screen Right button while the rover is still
+            // rolling backward (touch D-pad) — the case the input-only check missed.
+            float fwdSpeed = Vector3.Dot(rb.linearVelocity, transform.forward);
+            bool travellingBackward = fwdSpeed < -0.5f;
+            bool stationaryReverseIntent = Mathf.Abs(fwdSpeed) <= 0.5f && throttleReverse;
+            bool reverseSteer = travellingBackward || stationaryReverseIntent;
+
+            float steer = reverseSteer ? -moveInput.x : moveInput.x;
+            rb.AddTorque(transform.up * steer * turnTorque * traction);
 
             if (Mathf.Abs(moveInput.y) < 0.05f)
             {
