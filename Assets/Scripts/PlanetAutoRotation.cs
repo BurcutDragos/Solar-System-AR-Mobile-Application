@@ -44,7 +44,7 @@ public class PlanetAutoRotation : MonoBehaviour
             case "saturn": return -10.7f * 3600f;
             case "uranus": return 17.2f * 3600f;
             case "neptune": return -16.1f * 3600f;
-            case "pluto": return 153.3f * 24f * 3600f;
+            case "pluto": return 153.3f * 3600f;
             case "sun": return -25.4f * 24f * 3600f;
             case "moon": return -27.3f * 24f * 3600f;
             case "charon": return 6.4f * 24f * 3600f;

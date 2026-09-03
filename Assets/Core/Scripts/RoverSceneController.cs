@@ -37,5 +37,5 @@ public class RoverSceneController : MonoBehaviour
                 }
             }
         }
-        }
-        }
+    }
+}
