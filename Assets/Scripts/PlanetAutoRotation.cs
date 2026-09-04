@@ -4,7 +4,7 @@ public class PlanetAutoRotation : MonoBehaviour
 {
     [Header("Planet Settings")]
     public string planetName;
-    public float speedMultiplier = 1000f;
+    public float speedMultiplier = 15000f;
 
     private Vector3 rotationVector;
     private bool isPaused = false;
@@ -51,7 +51,7 @@ public class PlanetAutoRotation : MonoBehaviour
             case "ganymede": return -7.155f * 24f * 3600f;
             case "titan": return -15.9f * 24f * 3600f;
             case "titania": return 8.71f * 24f * 3600f;
-            case "triton": return 5.88f * 3600f;
+            case "triton": return 5.876854f * 24f * 3600f;
             case "io": return -42.5f * 3600f;
             case "europa": return -3.551f * 24f * 3600f;
             case "callisto": return -16.689f * 24f * 3600f;
